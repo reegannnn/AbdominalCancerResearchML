@@ -281,10 +281,10 @@ def main():
         data = data[(data['Weight'] >= weight_filter[0]) & (data['Weight'] <= weight_filter[1])]
 
     # Sex filter
-    if 'Sex' in data.columns:
-        sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0,1])
-        if sex_filter != "All":
-            data = data[data['Sex'] == sex_filter]
+    # if 'Sex' in data.columns:
+    #     sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0,1])
+    #     if sex_filter != "All":
+    #         data = data[data['Sex'] == sex_filter]
 
     # Visualization
     st.write("## Data Visualizations")
