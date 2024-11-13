@@ -282,7 +282,7 @@ def main():
 
     # Sex filter
     if 'Sex' in data.columns:
-        sex_filter = st.sidebar.selectbox("Filter by Sex", options=["All", "Male", "Female"])
+        sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0,1])
         if sex_filter != "All":
             data = data[data['Sex'] == sex_filter]
 
