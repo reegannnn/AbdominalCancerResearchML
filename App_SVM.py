@@ -96,9 +96,9 @@ st.pyplot(fig)
 Age = st.number_input("Age", min_value=0)
 BMI = st.number_input("BMI", min_value=0.0)
 Sex = st.selectbox("Sex", options=[0, 1])  # 0 = Female, 1 = Male
-Height = st.number_input("Height (in cm)", min_value=0)
-Weight = st.number_input("Weight (in kg)", min_value=0.0)
-Diagnosis = st.selectbox("Diagnosis (Optional for User Input)", options=[0, 1])  # Diagnosis should be predicted, but can include it for reference
+# Height = st.number_input("Height (in cm)", min_value=0)
+# Weight = st.number_input("Weight (in kg)", min_value=0.0)
+# Diagnosis = st.selectbox("Diagnosis (Optional for User Input)", options=[0, 1])  # Diagnosis should be predicted, but can include it for reference
 
 Alvarado_Score = st.number_input("Alvarado Score", min_value=0)
 Paedriatic_Appendicitis_Score = st.number_input("Paediatric Appendicitis Score", min_value=0)
