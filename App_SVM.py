@@ -57,7 +57,7 @@ import joblib
 from sklearn.svm import SVC
 
 # Load the trained model
-svm_model = joblib.load('new_svm_model.pkl')
+svm_model = joblib.load('final_svm_model.pkl')
 
 # Title and Description
 st.title("Diagnosis Prediction with Support Vector Machine (SVM)")
