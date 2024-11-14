@@ -54,6 +54,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from sklearn.svm import SVC
 
 # Load the trained model
 svm_model = joblib.load('svm_model.pkl')
@@ -101,7 +102,7 @@ input_data = input_data[svm_model.feature_names_in_]
 if st.button("Predict"):
     # Make prediction
     prediction = svm_model.predict(input_data)[0]
-    prediction_proba = svm_model.predict(input_data)[0][1]  # Get probability of positive diagnosis
+    prediction_proba = svm_model.predict_proba(input_data)[0][1]  # Get probability of positive diagnosis
     
     # Display the prediction
     st.subheader("Prediction")
