@@ -1,0 +1,783 @@
+Age,BMI,Sex,Height,Weight,Severity,Diagnosis,Alvarado_Score,Paedriatic_Appendicitis_Score,Migratory_Pain,Lower_Right_Abd_Pain,Contralateral_Rebound_Tenderness,Coughing_Pain,Nausea,Loss_of_Appetite,Body_Temperature,Dysuria,Stool,Peritonitis,Psoas_Sign,US_Number
+12.68,16.9,female,148.0,37.0,uncomplicated,appendicitis,4.0,3.0,no,yes,yes,no,no,yes,37.0,no,normal,no,yes,882.0
+14.1,31.9,male,147.0,69.5,uncomplicated,no appendicitis,5.0,4.0,yes,yes,yes,no,no,yes,36.9,yes,normal,no,yes,883.0
+14.14,23.3,female,163.0,62.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,yes,no,no,no,36.6,no,constipation,no,yes,884.0
+16.37,20.6,female,165.0,56.0,uncomplicated,no appendicitis,7.0,6.0,yes,yes,no,no,yes,yes,36.0,yes,normal,no,yes,886.0
+11.08,16.9,female,163.0,45.0,uncomplicated,appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.9,no,constipation,no,yes,887.0
+11.05,30.7,male,121.0,45.0,uncomplicated,no appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,36.9,no,diarrhea,no,yes,888.0
+8.98,19.4,female,140.0,38.5,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.7,no,normal,no,yes,889.0
+7.06,,female,,21.5,uncomplicated,no appendicitis,3.0,3.0,no,no,no,no,yes,yes,36.8,no,normal,no,no,890.0
+7.9,15.7,male,131.0,26.7,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,no,yes,37.3,no,normal,no,no,891.0
+14.34,14.9,male,174.0,45.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.1,no,normal,no,no,893.0
+11.87,15.7,male,147.0,34.0,uncomplicated,appendicitis,8.0,9.0,yes,yes,no,yes,no,yes,38.0,no,normal,no,no,894.0
+16.28,20.5,female,174.0,62.2,uncomplicated,no appendicitis,,,no,yes,no,yes,no,yes,36.6,yes,diarrhea,no,yes,895.0
+9.4,16.6,male,141.0,33.0,uncomplicated,no appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,37.4,no,normal,no,no,896.0
+12.48,22.1,female,131.0,38.0,uncomplicated,no appendicitis,5.0,4.0,yes,yes,yes,no,no,yes,36.5,no,normal,no,yes,897.0
+15.98,19.7,female,164.0,53.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.5,no,normal,no,no,900.0
+14.93,25.0,female,165.0,68.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.2,no,diarrhea,no,no,903.0
+13.39,17.5,female,153.0,40.7,uncomplicated,appendicitis,6.0,6.0,yes,yes,no,no,yes,yes,38.1,no,normal,no,no,904.0
+17.24,33.1,female,163.0,88.0,uncomplicated,appendicitis,3.0,5.0,yes,yes,no,yes,no,no,36.1,no,normal,no,no,905.0
+10.58,18.6,female,152.0,43.0,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,36.0,no,normal,no,no,909.0
+14.74,22.9,male,155.0,55.0,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,36.3,no,normal,no,no,910.0
+16.66,21.5,male,174.0,65.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,36.6,no,normal,no,yes,911.0
+11.18,16.7,female,151.0,37.9,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.4,no,normal,no,yes,913.0
+13.6,20.9,female,150.0,47.0,uncomplicated,no appendicitis,1.0,1.0,no,no,no,no,no,yes,36.6,no,constipation,no,no,914.0
+13.89,18.0,male,149.0,40.0,uncomplicated,no appendicitis,,,no,no,no,no,no,yes,37.0,no,diarrhea,no,no,916.0
+15.92,21.9,male,180.0,71.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,917.0
+13.26,24.2,female,160.0,62.0,uncomplicated,appendicitis,2.0,4.0,no,yes,no,yes,no,no,36.0,no,normal,no,yes,918.0
+8.69,16.0,female,139.0,31.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,37.3,no,constipation,no,no,921.0
+17.82,,female,,52.0,uncomplicated,no appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,37.0,no,normal,no,no,922.0
+10.51,17.8,female,150.0,40.0,uncomplicated,appendicitis,7.0,8.0,no,yes,no,yes,yes,yes,36.3,no,normal,no,no,924.0
+13.54,17.4,female,166.0,48.0,uncomplicated,appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.8,yes,normal,no,yes,925.0
+15.7,25.5,male,175.0,78.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,926.0
+10.55,18.1,male,141.0,36.0,uncomplicated,appendicitis,6.0,7.0,no,yes,no,yes,no,yes,37.4,no,normal,local,no,927.0
+10.36,16.3,female,138.0,31.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,38.3,no,normal,no,no,928.0
+5.33,17.4,male,127.0,28.0,uncomplicated,no appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,38.3,no,normal,no,,929.0
+11.4,,male,,45.0,uncomplicated,appendicitis,10.0,8.0,yes,yes,yes,no,yes,yes,38.8,no,normal,no,yes,930.0
+7.84,23.2,female,136.0,43.0,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,37.9,no,normal,no,no,931.0
+5.71,,male,,19.5,uncomplicated,appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,38.4,no,normal,no,no,933.0
+14.15,,male,,50.0,uncomplicated,no appendicitis,8.0,7.0,yes,yes,no,no,yes,yes,36.0,no,normal,no,no,934.0
+7.9,15.3,female,132.5,26.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.1,no,normal,no,no,935.0
+13.38,17.7,male,163.0,47.0,uncomplicated,appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,37.7,no,diarrhea,no,no,936.0
+15.9,,female,,54.0,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.0,no,constipation,no,yes,938.0
+15.89,19.6,female,175.0,60.0,uncomplicated,appendicitis,6.0,5.0,yes,yes,no,no,no,no,36.3,no,diarrhea,local,no,939.0
+10.13,17.2,male,132.0,30.0,uncomplicated,no appendicitis,8.0,9.0,yes,yes,no,yes,yes,yes,36.5,no,normal,no,yes,940.0
+3.79,15.1,male,106.0,17.0,uncomplicated,no appendicitis,5.0,6.0,no,no,no,yes,yes,yes,36.9,no,normal,no,no,942.0
+9.49,16.2,male,129.0,27.0,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,36.6,no,normal,no,no,943.0
+16.83,17.7,female,178.0,56.0,uncomplicated,no appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,37.2,yes,constipation,no,yes,945.0
+12.16,24.6,male,160.0,63.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,37.4,no,normal,no,no,946.0
+11.38,22.1,male,141.0,44.2,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.6,no,normal,no,no,947.0
+13.57,21.8,female,153.0,51.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.6,no,normal,local,yes,948.0
+15.72,,female,,52.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,no,no,no,no,36.8,no,normal,no,yes,949.0
+12.06,17.4,female,157.0,43.0,uncomplicated,appendicitis,2.0,4.0,no,yes,no,yes,no,no,36.2,yes,normal,no,yes,950.0
+16.8,37.0,female,162.0,97.0,uncomplicated,no appendicitis,7.0,6.0,yes,yes,no,no,no,yes,37.6,yes,diarrhea,no,no,951.0
+3.99,14.4,male,101.5,14.5,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,yes,37.4,no,normal,no,no,952.0
+7.2,14.1,female,125.0,22.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.6,no,normal,no,no,953.0
+10.01,24.1,male,155.0,58.1,uncomplicated,no appendicitis,7.0,7.0,yes,yes,no,no,yes,yes,38.0,no,diarrhea,local,no,954.0
+9.18,14.5,male,144.0,30.0,uncomplicated,appendicitis,7.0,8.0,no,yes,no,yes,yes,yes,37.0,no,normal,no,no,955.0
+11.88,20.7,female,154.0,48.5,uncomplicated,no appendicitis,5.0,3.0,no,yes,yes,no,no,no,36.8,no,normal,no,no,959.0
+10.58,17.3,male,140.0,34.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,37.8,no,normal,no,no,961.0
+6.9,12.9,female,115.0,16.7,uncomplicated,no appendicitis,4.0,3.0,no,no,yes,no,yes,yes,37.0,no,constipation,local,no,962.0
+17.79,18.4,male,173.0,55.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,no,yes,37.0,no,diarrhea,no,yes,963.0
+8.5,19.4,male,140.0,38.0,uncomplicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,37.6,no,diarrhea,no,no,965.0
+17.66,26.2,female,167.0,73.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.7,no,normal,no,no,967.0
+11.05,33.3,male,145.0,69.8,uncomplicated,no appendicitis,5.0,3.0,no,no,yes,no,yes,yes,36.6,no,constipation,no,no,968.0
+4.39,19.6,female,106.0,22.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,36.9,no,normal,no,,971.0
+16.31,30.8,male,183.0,103.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,36.9,no,diarrhea,local,yes,973.0
+15.83,25.2,female,153.0,59.0,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,yes,36.7,no,normal,no,no,974.0
+14.66,29.8,female,169.0,85.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.4,no,normal,no,yes,976.0
+10.51,14.1,female,153.0,33.0,uncomplicated,no appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,37.1,no,normal,no,yes,977.0
+14.57,24.9,female,150.0,56.0,uncomplicated,no appendicitis,4.0,5.0,no,yes,yes,yes,no,yes,36.1,no,normal,no,yes,978.0
+12.27,19.6,female,172.0,58.0,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,36.6,no,normal,no,no,981.0
+9.1,,male,,25.0,uncomplicated,no appendicitis,7.0,5.0,no,no,yes,no,yes,yes,37.6,no,normal,no,no,982.0
+11.3,16.0,female,152.0,37.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.7,no,constipation,no,no,983.0
+8.47,21.0,male,138.0,40.0,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.9,no,constipation,no,no,986.0
+15.66,20.1,female,164.0,54.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,37.0,no,normal,local,yes,988.0
+12.7,17.3,female,165.0,46.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.7,no,normal,no,no,989.0
+10.49,15.8,male,140.0,31.0,uncomplicated,no appendicitis,8.0,8.0,no,yes,yes,yes,no,yes,37.9,no,normal,no,yes,991.0
+12.68,,female,,39.0,uncomplicated,appendicitis,4.0,5.0,no,yes,yes,yes,no,yes,37.1,no,normal,no,yes,992.0
+13.98,20.6,male,172.0,60.9,uncomplicated,appendicitis,5.0,4.0,yes,yes,yes,no,no,no,36.7,no,normal,no,no,733.0
+17.79,17.8,female,164.0,48.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,37.5,no,normal,no,no,735.0
+9.39,15.3,female,139.8,30.0,uncomplicated,no appendicitis,3.0,5.0,yes,yes,no,yes,no,no,36.9,no,normal,no,yes,736.0
+15.83,19.1,female,168.0,54.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.1,no,normal,no,no,737.0
+8.73,14.9,female,132.0,26.0,uncomplicated,appendicitis,4.0,3.0,yes,yes,yes,no,no,no,36.6,no,normal,no,yes,738.0
+8.16,16.8,male,140.0,33.0,uncomplicated,no appendicitis,5.0,4.0,no,no,no,no,yes,yes,36.2,no,diarrhea,no,yes,739.0
+14.23,,male,,54.0,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,36.5,no,normal,local,no,740.0
+15.09,18.7,male,192.0,69.0,uncomplicated,no appendicitis,4.0,3.0,no,no,yes,no,yes,yes,37.1,no,diarrhea,no,no,743.0
+12.1,19.1,female,160.0,49.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,35.6,no,constipation,generalized,yes,745.0
+15.37,18.3,male,181.0,60.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,no,no,yes,yes,36.9,no,normal,no,no,746.0
+9.18,20.5,male,145.0,43.0,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,yes,yes,36.8,no,normal,no,yes,748.0
+10.59,16.8,male,140.0,33.0,uncomplicated,appendicitis,6.0,6.0,no,yes,yes,yes,no,no,37.3,no,normal,no,no,749.0
+16.29,18.6,female,175.0,57.0,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,no,yes,36.7,no,normal,local,yes,750.0
+8.83,,male,,33.8,uncomplicated,appendicitis,8.0,8.0,yes,yes,yes,yes,no,no,37.3,no,normal,no,no,751.0
+9.49,14.6,male,136.0,27.0,uncomplicated,appendicitis,9.0,9.0,yes,yes,no,yes,yes,yes,37.2,no,normal,no,no,752.0
+6.29,13.9,male,120.0,20.0,uncomplicated,no appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.3,no,normal,no,no,753.0
+6.76,15.5,female,122.0,22.9,uncomplicated,no appendicitis,7.0,8.0,yes,yes,no,yes,no,no,37.4,no,normal,no,no,754.0
+10.78,17.1,female,145.0,36.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,yes,no,yes,yes,37.4,no,normal,no,no,755.0
+17.72,22.7,male,178.0,72.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,no,no,yes,yes,36.5,no,normal,no,no,756.0
+9.53,16.6,male,132.0,29.0,uncomplicated,no appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,37.7,no,constipation,no,yes,757.0
+6.39,15.7,male,110.0,18.5,uncomplicated,appendicitis,7.0,6.0,no,yes,yes,no,no,yes,37.0,no,normal,no,no,759.0
+6.64,16.0,female,125.0,24.5,uncomplicated,no appendicitis,5.0,4.0,no,no,no,no,no,yes,37.9,no,normal,generalized,no,760.0
+11.22,14.9,male,142.0,30.0,uncomplicated,appendicitis,6.0,6.0,no,yes,yes,yes,no,no,36.8,no,normal,no,yes,761.0
+11.96,15.9,female,144.0,33.0,uncomplicated,no appendicitis,3.0,5.0,no,yes,no,yes,no,no,37.3,no,normal,no,yes,765.0
+11.95,18.7,male,162.0,49.0,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.0,no,normal,no,no,769.0
+12.98,20.2,female,159.0,51.0,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,yes,yes,37.2,no,normal,no,yes,771.0
+14.71,18.5,female,174.0,56.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,no,no,no,yes,39.8,no,normal,no,yes,772.0
+10.64,23.5,male,146.0,49.5,uncomplicated,appendicitis,4.0,3.0,no,no,no,no,yes,yes,36.7,no,constipation,no,no,775.0
+7.3,15.9,female,123.0,23.5,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,37.4,no,normal,no,no,777.0
+12.97,19.5,female,152.0,44.8,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.0,no,constipation,no,no,779.0
+16.12,22.5,female,166.0,62.0,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,no,yes,36.4,yes,normal,no,yes,780.0
+14.6,18.2,male,164.0,48.5,uncomplicated,appendicitis,10.0,8.0,yes,yes,yes,no,yes,yes,37.6,no,normal,no,no,781.0
+12.62,20.8,female,161.0,54.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,yes,no,no,yes,36.9,no,normal,no,no,782.0
+12.27,20.0,female,158.0,50.0,uncomplicated,no appendicitis,5.0,4.0,yes,yes,yes,no,no,yes,36.8,no,normal,no,yes,786.0
+4.39,15.1,male,103.0,16.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,no,yes,39.0,no,diarrhea,no,no,787.0
+11.29,22.3,female,160.0,57.0,uncomplicated,no appendicitis,2.0,1.0,no,no,no,no,no,no,36.9,no,diarrhea,no,no,789.0
+6.27,16.5,male,128.0,26.5,uncomplicated,appendicitis,5.0,5.0,no,yes,yes,yes,no,no,36.9,no,normal,no,no,790.0
+10.98,12.9,female,142.0,26.0,uncomplicated,appendicitis,6.0,5.0,yes,yes,no,no,no,no,37.2,no,normal,no,no,791.0
+9.44,18.6,female,142.5,37.8,uncomplicated,no appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,37.7,no,diarrhea,no,no,794.0
+15.16,20.8,female,167.0,58.0,uncomplicated,no appendicitis,,,no,yes,no,no,yes,yes,37.2,no,normal,no,no,795.0
+16.72,18.5,male,180.0,60.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,yes,37.0,no,normal,no,yes,796.0
+12.59,16.7,male,148.5,36.5,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,36.8,no,normal,no,no,797.0
+15.18,25.4,female,151.0,58.0,uncomplicated,no appendicitis,4.0,5.0,no,yes,no,yes,no,no,36.3,no,normal,local,yes,799.0
+8.19,14.8,male,130.0,25.0,uncomplicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,37.7,no,normal,no,no,801.0
+16.19,22.0,male,172.0,65.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,no,no,no,no,36.4,no,normal,no,no,802.0
+10.56,15.6,male,142.5,32.0,uncomplicated,no appendicitis,4.0,3.0,no,no,yes,no,yes,yes,37.8,no,diarrhea,no,no,803.0
+16.43,26.6,male,170.0,77.0,uncomplicated,no appendicitis,,,no,yes,no,no,yes,yes,36.5,no,normal,no,no,804.0
+14.84,20.3,female,160.0,52.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,yes,no,no,37.3,no,normal,no,yes,805.0
+12.67,17.4,male,168.0,49.0,uncomplicated,appendicitis,3.0,4.0,no,yes,yes,yes,no,no,36.6,no,diarrhea,no,yes,806.0
+14.2,18.3,male,170.0,53.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.5,no,normal,no,no,807.0
+8.09,16.1,male,127.0,25.5,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,no,yes,37.2,no,normal,no,no,808.0
+7.74,14.5,female,126.0,22.5,uncomplicated,appendicitis,5.0,5.0,yes,yes,no,no,yes,yes,36.8,no,constipation,no,no,575.0
+10.76,17.6,male,138.5,34.4,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.9,no,diarrhea,generalized,no,578.0
+9.25,25.9,male,139.0,50.0,uncomplicated,no appendicitis,7.0,6.0,yes,yes,no,no,yes,yes,36.9,no,constipation,no,no,579.0
+9.95,16.4,female,143.5,34.1,uncomplicated,no appendicitis,5.0,5.0,yes,yes,no,no,yes,yes,37.0,no,diarrhea,no,no,583.0
+11.65,27.4,male,172.0,81.0,uncomplicated,no appendicitis,6.0,7.0,no,yes,no,yes,yes,yes,37.1,no,normal,no,yes,584.0
+10.93,18.4,male,137.5,35.0,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,36.5,no,normal,no,no,585.0
+13.83,29.8,male,169.0,85.4,uncomplicated,no appendicitis,5.0,5.0,yes,yes,no,no,yes,yes,36.4,no,normal,no,no,586.0
+10.9,13.7,female,135.0,24.5,uncomplicated,no appendicitis,0.0,1.0,yes,no,no,no,no,no,36.7,no,normal,no,yes,587.0
+16.38,17.3,female,165.0,46.8,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.5,no,normal,no,no,589.0
+5.16,,male,,23.0,uncomplicated,appendicitis,,,no,yes,no,no,no,no,37.8,no,normal,no,no,591.0
+10.65,13.3,female,136.5,25.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.2,no,normal,no,no,592.0
+9.2,16.6,male,143.0,33.5,uncomplicated,no appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,37.1,no,normal,no,yes,593.0
+3.16,14.11,male,96.0,13.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,no,no,38.5,no,diarrhea,no,no,595.0
+11.98,26.4,male,143.0,54.0,uncomplicated,no appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,37.0,no,constipation,no,no,596.0
+12.8,15.6,male,152.0,35.8,uncomplicated,appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,37.1,no,constipation,no,yes,597.0
+15.48,22.4,female,169.0,64.0,uncomplicated,no appendicitis,6.0,5.0,yes,yes,yes,no,yes,yes,36.9,no,normal,no,yes,598.0
+11.9,16.7,female,153.0,38.5,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,no,no,37.3,no,constipation,no,no,600.0
+3.27,15.75,female,87.7,12.2,uncomplicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.9,no,normal,no,no,601.0
+11.36,13.9,female,142.0,28.0,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,36.8,yes,normal,no,no,602.0
+8.56,16.3,female,138.0,30.5,uncomplicated,no appendicitis,4.0,3.0,no,no,yes,no,yes,yes,36.4,no,normal,no,yes,603.0
+16.68,20.3,female,169.0,58.0,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,36.8,no,normal,no,no,604.0
+14.15,23.5,female,165.0,64.0,uncomplicated,appendicitis,5.0,4.0,no,no,no,no,yes,no,37.6,no,normal,no,no,606.0
+10.86,14.1,male,141.0,28.0,uncomplicated,no appendicitis,4.0,3.0,yes,yes,yes,no,no,no,36.2,no,normal,no,no,607.0
+10.9,23.3,male,148.0,51.0,uncomplicated,no appendicitis,,,yes,yes,no,no,yes,yes,36.2,no,diarrhea,no,no,609.0
+15.01,22.5,female,166.0,62.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.0,no,normal,no,yes,612.0
+10.05,20.3,female,148.5,45.0,uncomplicated,no appendicitis,0.0,0.0,no,no,no,no,no,no,36.3,no,diarrhea,no,no,613.0
+11.05,20.7,female,149.0,46.3,uncomplicated,no appendicitis,2.0,1.0,no,no,no,no,no,no,36.0,no,normal,no,yes,614.0
+14.99,20.8,female,161.0,54.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,no,no,no,no,37.1,no,normal,no,no,615.0
+11.37,14.0,female,130.5,24.0,uncomplicated,no appendicitis,6.0,5.0,yes,yes,yes,no,yes,yes,37.1,no,normal,no,yes,616.0
+7.72,20.1,male,129.5,33.8,uncomplicated,no appendicitis,3.0,4.0,no,yes,no,yes,no,yes,37.2,no,normal,no,yes,617.0
+16.52,19.6,female,158.0,49.0,uncomplicated,appendicitis,,,no,yes,no,no,yes,yes,37.3,no,normal,no,no,619.0
+8.34,13.0,female,130.0,21.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.7,no,normal,no,no,620.0
+14.11,18.5,female,156.0,45.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,37.1,no,normal,no,yes,621.0
+17.21,18.0,male,178.0,57.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,36.9,no,normal,no,no,622.0
+10.88,15.5,male,145.7,33.0,uncomplicated,no appendicitis,3.0,4.0,no,yes,yes,yes,no,no,36.8,no,normal,no,yes,623.0
+14.16,,male,,75.0,uncomplicated,appendicitis,6.0,5.0,yes,yes,yes,no,yes,yes,37.2,no,diarrhea,no,yes,624.0
+11.82,16.7,male,147.0,36.0,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,no,no,37.5,no,normal,no,yes,625.0
+9.5,16.6,female,144.5,35.4,uncomplicated,appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,37.1,no,normal,no,yes,626.0
+11.06,19.2,female,146.0,41.0,uncomplicated,no appendicitis,7.0,8.0,no,yes,no,yes,yes,yes,36.4,no,normal,no,yes,628.0
+13.7,15.4,male,167.0,43.4,uncomplicated,appendicitis,5.0,6.0,yes,yes,no,yes,no,no,36.7,no,diarrhea,no,no,
+8.67,12.8,female,140.0,25.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,36.8,no,diarrhea,no,no,633.0
+15.79,23.0,female,160.0,59.0,uncomplicated,no appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,36.3,no,normal,no,yes,635.0
+9.75,15.9,male,141.5,32.0,uncomplicated,appendicitis,5.0,6.0,no,yes,no,yes,yes,no,35.9,no,diarrhea,no,no,636.0
+12.7,27.7,female,159.0,69.5,uncomplicated,no appendicitis,,,yes,yes,yes,yes,yes,yes,36.9,yes,normal,no,yes,638.0
+9.53,26.1,female,149.0,58.0,uncomplicated,no appendicitis,3.0,2.0,no,yes,yes,no,no,no,37.1,no,normal,no,no,641.0
+10.45,16.9,male,145.5,35.5,uncomplicated,no appendicitis,,,no,yes,no,no,no,no,37.0,no,normal,no,no,642.0
+9.19,15.3,male,133.0,27.2,uncomplicated,no appendicitis,6.0,5.0,yes,yes,yes,no,yes,yes,36.4,no,normal,no,no,643.0
+11.07,24.5,female,147.0,53.0,uncomplicated,no appendicitis,7.0,5.0,no,yes,yes,no,no,yes,37.8,no,diarrhea,local,yes,644.0
+10.4,22.2,male,143.5,46.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,36.8,no,normal,no,no,645.0
+12.9,17.1,female,153.0,40.0,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.4,no,normal,local,no,646.0
+7.02,10.9,male,132.0,19.0,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.2,no,normal,no,no,647.0
+17.3,22.7,male,173.0,68.0,uncomplicated,no appendicitis,3.0,4.0,no,yes,yes,yes,no,no,36.6,no,normal,no,yes,648.0
+10.75,22.9,female,155.0,54.5,uncomplicated,no appendicitis,7.0,7.0,no,yes,yes,yes,no,no,37.7,no,normal,no,yes,652.0
+14.43,17.6,female,160.0,45.0,uncomplicated,no appendicitis,,,no,yes,yes,yes,yes,yes,37.1,no,normal,generalized,yes,653.0
+13.76,20.1,female,161.0,51.5,uncomplicated,appendicitis,5.0,4.0,yes,yes,no,no,no,no,36.9,no,normal,no,no,656.0
+10.95,,male,,36.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,37.0,no,normal,local,yes,657.0
+11.15,17.5,male,155.0,42.0,uncomplicated,appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,36.8,no,diarrhea,no,no,660.0
+10.37,16.0,male,156.0,39.0,uncomplicated,no appendicitis,3.0,5.0,no,yes,no,yes,no,no,37.4,no,diarrhea,no,yes,661.0
+15.65,23.0,female,163.0,61.0,uncomplicated,no appendicitis,,,no,no,no,no,no,yes,36.5,no,normal,no,yes,664.0
+9.04,16.2,female,134.0,29.4,uncomplicated,no appendicitis,5.0,5.0,yes,yes,no,no,yes,yes,36.0,no,normal,no,yes,665.0
+4.76,16.2,male,111.0,19.9,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.4,yes,normal,no,no,667.0
+11.79,19.2,female,137.0,36.0,uncomplicated,no appendicitis,6.0,6.0,no,yes,yes,yes,no,no,36.6,no,normal,local,yes,668.0
+15.38,18.1,female,163.0,47.6,uncomplicated,appendicitis,6.0,6.0,yes,yes,no,no,yes,yes,37.4,no,normal,no,no,672.0
+13.64,21.2,female,158.0,53.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,yes,no,no,no,37.5,no,diarrhea,no,no,675.0
+12.42,16.2,male,147.0,34.5,uncomplicated,appendicitis,5.0,3.0,no,yes,yes,no,no,no,37.1,no,normal,no,no,683.0
+15.89,23.1,female,143.5,47.5,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,no,yes,37.9,no,constipation,no,no,686.0
+9.94,15.3,male,140.0,29.5,uncomplicated,no appendicitis,8.0,6.0,yes,yes,yes,no,no,no,37.4,no,constipation,local,no,689.0
+11.01,16.0,male,148.0,35.0,uncomplicated,appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,38.1,no,normal,no,no,691.0
+7.26,15.4,male,130.0,25.6,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.9,no,normal,no,no,695.0
+16.58,18.8,female,158.0,47.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.0,no,normal,no,no,696.0
+13.8,20.6,male,162.0,54.0,uncomplicated,appendicitis,7.0,8.0,no,yes,no,yes,yes,yes,36.9,no,diarrhea,no,no,697.0
+13.83,,male,,48.0,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.2,yes,normal,no,yes,698.0
+17.06,24.5,female,176.0,76.0,uncomplicated,no appendicitis,3.0,2.0,no,yes,yes,no,no,no,37.2,no,normal,no,no,700.0
+10.8,21.8,female,146.5,47.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.5,no,normal,no,no,701.0
+6.56,22.5,male,135.0,41.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.4,no,normal,no,no,
+8.09,16.5,male,128.0,27.0,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.8,no,normal,no,no,703.0
+4.52,14.0,female,110.0,16.5,uncomplicated,no appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,37.3,no,normal,no,no,704.0
+11.35,25.6,female,163.0,68.0,uncomplicated,no appendicitis,6.0,4.0,no,yes,yes,no,no,no,36.8,no,normal,no,no,708.0
+12.09,17.6,male,143.0,36.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,711.0
+11.81,24.2,male,156.0,59.1,uncomplicated,appendicitis,4.0,5.0,no,no,no,yes,yes,yes,36.2,no,diarrhea,no,no,712.0
+12.93,15.4,male,171.0,45.0,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,36.6,no,diarrhea,no,no,714.0
+15.87,19.0,female,166.5,53.3,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,715.0
+13.24,21.3,female,165.0,58.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.9,no,normal,no,no,716.0
+15.26,15.9,male,174.0,47.5,uncomplicated,no appendicitis,5.0,5.0,no,yes,yes,yes,no,no,36.7,no,normal,no,yes,717.0
+9.99,18.9,female,140.0,37.0,uncomplicated,no appendicitis,5.0,4.0,yes,yes,yes,no,no,no,37.8,no,normal,no,yes,718.0
+11.27,17.1,female,146.7,37.4,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,no,normal,local,yes,721.0
+15.21,20.8,female,158.0,52.0,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,no,yes,36.2,no,normal,no,no,722.0
+13.37,20.4,female,161.0,53.0,uncomplicated,no appendicitis,2.0,4.0,no,yes,no,yes,no,no,36.7,no,normal,no,yes,724.0
+16.86,35.4,female,154.0,84.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,no,37.4,no,normal,no,no,725.0
+12.41,18.76,female,150.5,42.5,uncomplicated,no appendicitis,6.0,5.0,no,yes,yes,no,yes,yes,37.2,no,normal,no,yes,317.0
+9.32,16.83,male,129.0,28.0,uncomplicated,no appendicitis,,,no,no,no,no,yes,no,37.5,no,normal,no,no,318.0
+9.33,15.38,female,127.5,25.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,yes,36.4,no,normal,no,yes,319.0
+14.93,21.03,male,181.0,68.9,uncomplicated,appendicitis,4.0,5.0,yes,yes,yes,yes,no,no,36.4,no,constipation,no,no,60.0
+17.49,17.72,female,165.0,48.25,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,26.9,no,normal,no,no,320.0
+11.67,23.38,female,163.5,62.5,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,yes,321.0
+15.11,17.71,male,165.5,48.5,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.8,no,normal,no,no,322.0
+11.05,26.01,female,152.5,60.5,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,37.0,yes,normal,no,no,323.0
+13.43,13.78,male,158.0,34.4,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,no,37.8,no,normal,no,no,324.0
+13.81,16.38,female,162.0,43.0,uncomplicated,appendicitis,6.0,6.0,yes,yes,no,no,yes,no,38.0,no,normal,no,no,61.0
+10.74,15.82,female,140.0,31.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,no,no,yes,no,37.2,no,diarrhea,no,yes,62.0
+7.71,21.3,female,130.0,36.0,uncomplicated,appendicitis,5.0,3.0,no,yes,yes,no,no,no,36.8,no,normal,no,yes,63.0
+10.9,21.17,male,145.0,44.5,uncomplicated,no appendicitis,5.0,6.0,yes,yes,yes,yes,yes,no,36.4,no,diarrhea,no,yes,431.0
+17.56,19.1,female,165.0,52.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,37.3,no,normal,no,no,
+12.24,15.59,male,153.0,36.5,uncomplicated,appendicitis,5.0,5.0,no,yes,yes,yes,yes,no,36.8,no,diarrhea,no,yes,64.0
+14.29,18.32,female,167.5,51.4,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,yes,no,37.2,no,diarrhea,no,yes,65.0
+15.39,26.93,female,161.0,69.8,uncomplicated,no appendicitis,5.0,5.0,no,yes,no,no,yes,no,37.2,no,normal,no,no,326.0
+15.81,22.61,female,164.0,60.8,uncomplicated,no appendicitis,3.0,2.0,no,yes,yes,no,no,no,37.3,no,normal,no,no,327.0
+5.77,19.65,male,125.0,30.7,uncomplicated,no appendicitis,5.0,4.0,no,yes,yes,no,yes,no,39.7,no,normal,no,no,328.0
+15.97,7.83,female,174.0,23.7,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,329.0
+8.67,15.99,female,133.5,28.5,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,no,no,38.2,no,normal,no,no,67.0
+11.13,14.23,female,141.5,28.5,uncomplicated,no appendicitis,2.0,2.0,no,no,no,no,yes,yes,37.0,no,normal,no,yes,330.0
+16.77,25.4,female,166.0,70.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,37.0,no,normal,no,no,68.0
+9.27,23.34,male,163.0,62.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,no,331.0
+13.54,18.23,male,170.5,53.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,no,332.0
+12.39,20.91,female,157.4,51.8,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.4,no,normal,no,yes,333.0
+15.05,18.37,female,165.0,50.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,yes,no,36.8,no,normal,no,no,336.0
+14.58,29.34,female,162.0,77.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,yes,no,36.8,no,normal,no,yes,337.0
+11.77,13.33,male,152.0,30.8,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.2,no,diarrhea,local,no,69.0
+5.14,13.56,male,116.5,18.4,uncomplicated,appendicitis,4.0,3.0,no,no,no,no,yes,no,38.6,no,constipation,local,no,70.0
+9.24,20.68,male,141.5,41.4,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,36.8,no,normal,no,no,71.0
+6.0,11.9,male,123.0,18.0,uncomplicated,no appendicitis,8.0,7.0,no,yes,no,no,yes,yes,39.2,yes,diarrhea,no,no,72.0
+12.3,15.07,male,148.0,33.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,no,339.0
+17.2,22.37,female,175.0,68.5,uncomplicated,no appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.6,yes,normal,no,yes,432.0
+13.29,29.02,male,160.0,74.3,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,yes,no,36.8,no,normal,no,yes,73.0
+12.57,17.3,female,170.0,50.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.3,no,normal,no,no,74.0
+12.56,24.82,male,175.0,76.0,uncomplicated,appendicitis,4.0,4.0,yes,yes,no,no,no,no,37.4,no,diarrhea,no,no,75.0
+12.27,15.95,male,149.8,35.8,uncomplicated,no appendicitis,,,no,yes,no,no,no,no,36.6,no,diarrhea,no,no,340.0
+15.21,22.55,female,169.5,64.8,uncomplicated,no appendicitis,,,no,yes,no,no,yes,no,37.5,no,diarrhea,no,no,341.0
+6.79,18.6,male,129.0,31.0,uncomplicated,appendicitis,7.0,8.0,no,yes,no,yes,no,yes,37.3,no,constipation,no,no,
+7.99,18.85,female,142.0,38.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,no,no,no,no,37.2,no,normal,no,no,342.0
+13.26,20.4,female,155.0,49.0,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,yes,no,36.8,no,normal,no,no,343.0
+14.49,19.38,male,163.5,51.8,uncomplicated,no appendicitis,4.0,5.0,no,yes,no,yes,yes,no,37.4,no,normal,no,yes,344.0
+14.43,20.53,female,150.5,46.5,uncomplicated,no appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.0,no,normal,no,yes,345.0
+12.51,16.76,male,144.5,35.0,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,37.0,no,normal,no,no,77.0
+15.73,18.46,male,178.0,58.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.2,no,normal,no,no,78.0
+13.89,26.8,female,158.0,67.0,uncomplicated,appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,37.1,no,normal,no,no,
+11.87,16.89,female,151.0,38.5,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,no,39.2,no,normal,no,yes,79.0
+16.44,23.62,male,173.5,71.1,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,no,no,38.2,no,diarrhea,no,no,80.0
+8.71,19.25,female,140.5,38.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,38.0,no,constipation,no,no,81.0
+9.79,18.86,female,141.0,37.5,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,39.4,no,constipation,no,no,82.0
+13.7,21.77,male,166.0,60.0,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,no,yes,37.9,no,normal,no,no,83.0
+12.55,20.32,male,161.5,53.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,no,constipation,no,yes,347.0
+9.68,17.6,female,143.0,36.0,uncomplicated,appendicitis,4.0,2.0,no,yes,no,no,no,no,37.4,no,normal,no,no,84.0
+8.89,15.5,female,132.0,27.0,uncomplicated,no appendicitis,5.0,6.0,yes,yes,yes,yes,yes,no,37.0,no,normal,no,yes,348.0
+5.42,15.7,male,112.0,19.7,uncomplicated,no appendicitis,6.0,5.0,yes,yes,no,no,no,no,39.0,no,constipation,no,no,433.0
+11.21,13.34,female,138.0,25.4,uncomplicated,no appendicitis,8.0,5.0,no,yes,no,no,yes,no,37.6,no,normal,generalized,yes,349.0
+11.44,24.33,male,154.4,58.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,no,yes,no,yes,37.0,no,normal,no,no,86.0
+11.9,16.84,male,140.0,33.0,uncomplicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.2,no,normal,local,yes,87.0
+16.23,17.84,male,174.0,54.0,uncomplicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,38.0,no,normal,no,no,88.0
+8.62,15.87,male,148.5,35.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,yes,no,no,no,39.3,no,normal,no,no,352.0
+11.98,17.07,male,145.0,35.9,uncomplicated,no appendicitis,4.0,2.0,no,yes,yes,no,no,no,37.8,no,normal,local,yes,353.0
+15.05,19.27,male,175.0,59.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.8,no,diarrhea,no,yes,355.0
+5.93,12.51,male,109.5,15.0,uncomplicated,no appendicitis,6.0,3.0,no,yes,no,no,no,no,37.8,no,normal,no,yes,356.0
+7.21,15.38,male,127.5,25.0,uncomplicated,no appendicitis,3.0,2.0,no,yes,no,no,no,no,36.8,yes,constipation,no,no,89.0
+15.49,20.58,female,167.0,57.4,uncomplicated,no appendicitis,7.0,5.0,no,yes,yes,no,no,no,38.0,no,normal,no,yes,434.0
+8.25,17.63,male,136.0,32.6,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,36.6,no,constipation,no,yes,90.0
+11.83,17.26,female,156.0,42.0,uncomplicated,appendicitis,9.0,5.0,yes,yes,yes,no,yes,no,37.8,no,normal,no,yes,91.0
+11.07,16.1,male,141.0,32.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.2,no,normal,no,no,92.0
+10.33,15.22,male,149.0,33.8,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.2,no,normal,no,no,93.0
+12.15,22.29,male,166.5,61.8,uncomplicated,no appendicitis,,,no,yes,no,no,no,no,38.4,no,diarrhea,no,no,435.0
+12.53,29.32,male,152.3,68.0,uncomplicated,no appendicitis,7.0,7.0,yes,yes,yes,yes,no,no,36.8,no,normal,no,yes,436.0
+9.24,16.71,male,134.0,30.0,uncomplicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.6,no,normal,no,yes,95.0
+6.36,13.19,female,120.0,19.0,uncomplicated,appendicitis,8.0,6.0,yes,yes,yes,no,no,no,38.2,no,normal,no,no,96.0
+14.58,22.98,female,155.0,55.2,uncomplicated,no appendicitis,9.0,9.0,yes,yes,no,yes,yes,no,38.7,no,diarrhea,no,no,362.0
+12.51,17.89,female,151.0,40.8,uncomplicated,no appendicitis,3.0,2.0,no,yes,no,no,no,no,37.5,no,normal,no,yes,363.0
+10.37,21.0,male,138.0,40.0,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,no,38.5,no,normal,no,no,97.0
+7.59,12.81,female,134.0,23.0,uncomplicated,appendicitis,4.0,5.0,yes,yes,no,yes,no,no,37.5,no,normal,no,no,98.0
+14.61,11.03,male,188.0,39.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,36.8,no,normal,no,no,437.0
+14.87,16.19,male,177.5,51.0,uncomplicated,no appendicitis,3.0,2.0,no,yes,yes,no,no,no,36.0,no,normal,generalized,yes,366.0
+12.01,28.91,male,160.0,74.0,uncomplicated,no appendicitis,5.0,6.0,yes,yes,yes,yes,yes,no,37.0,no,normal,no,no,438.0
+11.81,15.97,female,166.0,44.0,uncomplicated,appendicitis,8.0,7.0,no,yes,yes,yes,yes,no,37.0,no,normal,no,no,99.0
+7.74,22.04,female,120.5,32.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,yes,no,no,no,38.8,no,constipation,no,no,439.0
+11.04,20.78,female,152.0,48.0,uncomplicated,no appendicitis,8.0,8.0,yes,yes,yes,yes,yes,no,37.0,no,constipation,no,yes,368.0
+9.34,19.04,female,137.5,36.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.0,no,normal,no,yes,369.0
+14.17,21.28,female,166.5,59.0,uncomplicated,no appendicitis,3.0,4.0,no,yes,yes,yes,no,no,37.0,no,normal,no,yes,370.0
+1.73,17.93,male,83.5,12.5,uncomplicated,no appendicitis,5.0,5.0,no,yes,no,no,yes,yes,38.8,no,normal,no,no,371.0
+10.16,21.02,female,142.2,42.5,uncomplicated,no appendicitis,9.0,6.0,yes,yes,yes,no,yes,no,37.4,no,normal,no,no,440.0
+8.15,15.68,female,136.0,29.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,38.4,no,normal,no,no,100.0
+11.4,16.3,female,145.5,34.5,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.0,no,normal,no,no,372.0
+10.56,22.81,male,151.0,52.0,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,no,no,37.2,no,normal,no,no,101.0
+14.61,21.1,female,164.8,57.3,uncomplicated,no appendicitis,,,no,yes,no,no,yes,no,38.4,no,normal,no,no,251.0
+15.71,17.7,male,181.0,58.0,uncomplicated,no appendicitis,6.0,7.0,yes,yes,no,no,yes,yes,39.5,no,normal,no,yes,405.0
+13.49,17.15,female,162.0,45.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,no,yes,no,yes,37.2,yes,normal,no,no,406.0
+14.52,26.75,male,156.0,65.1,uncomplicated,no appendicitis,,,yes,yes,no,no,yes,yes,36.6,yes,constipation,local,yes,255.0
+14.34,21.26,female,149.0,47.2,uncomplicated,no appendicitis,6.0,6.0,no,yes,no,no,yes,yes,38.9,no,diarrhea,no,yes,256.0
+7.21,17.44,female,110.5,21.3,uncomplicated,no appendicitis,6.0,7.0,no,yes,yes,yes,yes,yes,38.0,no,constipation,no,no,407.0
+9.53,14.08,female,141.0,28.0,uncomplicated,no appendicitis,,,no,yes,no,yes,no,no,38.8,no,normal,no,yes,408.0
+12.02,20.17,male,145.5,42.7,uncomplicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.4,no,normal,no,no,34.0
+12.87,29.94,male,168.5,85.0,uncomplicated,appendicitis,8.0,6.0,yes,yes,no,no,yes,yes,36.0,no,normal,no,no,35.0
+7.82,18.66,male,133.0,33.0,uncomplicated,no appendicitis,7.0,7.0,yes,yes,yes,yes,no,yes,36.2,no,normal,no,yes,261.0
+10.65,18.11,male,140.0,35.5,uncomplicated,no appendicitis,5.0,5.0,no,yes,no,yes,no,no,37.8,no,normal,no,yes,409.0
+14.02,15.82,male,159.0,40.0,uncomplicated,no appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.0,no,normal,no,no,262.0
+13.94,21.87,female,167.0,61.0,uncomplicated,no appendicitis,6.0,4.0,no,yes,yes,no,no,no,36.6,no,normal,no,no,410.0
+15.53,22.86,female,166.0,63.0,uncomplicated,no appendicitis,8.0,6.0,no,yes,yes,no,yes,no,38.0,no,normal,no,yes,263.0
+13.46,14.71,male,169.0,42.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.5,no,normal,no,no,36.0
+13.49,28.6,male,163.0,76.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,yes,no,no,36.2,no,normal,no,no,264.0
+6.67,25.04,female,124.0,38.5,uncomplicated,no appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,39.6,no,diarrhea,no,no,265.0
+9.58,15.2,male,146.0,32.4,uncomplicated,no appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,36.6,no,normal,no,yes,266.0
+12.9,19.14,female,160.0,49.0,uncomplicated,no appendicitis,7.0,4.0,no,yes,no,no,yes,no,37.8,no,normal,no,no,411.0
+9.51,19.03,male,147.5,41.4,uncomplicated,no appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.8,no,normal,no,no,267.0
+11.96,21.22,female,161.0,55.0,uncomplicated,no appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.8,no,normal,no,no,412.0
+9.92,15.09,female,144.5,31.5,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.8,no,normal,no,no,37.0
+11.85,22.31,female,164.0,60.0,uncomplicated,appendicitis,5.0,6.0,yes,yes,no,yes,yes,no,37.4,no,diarrhea,no,no,38.0
+10.3,18.87,male,149.2,42.0,uncomplicated,appendicitis,3.0,4.0,no,yes,yes,yes,no,no,37.2,no,normal,no,no,39.0
+15.57,16.79,male,176.0,52.0,uncomplicated,no appendicitis,5.0,5.0,yes,yes,yes,yes,no,no,37.7,no,diarrhea,no,yes,268.0
+10.34,15.98,male,148.0,35.0,uncomplicated,appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.0,no,constipation,no,no,40.0
+9.19,15.43,female,144.0,32.0,uncomplicated,appendicitis,10.0,9.0,yes,yes,yes,yes,yes,yes,37.8,no,constipation,no,yes,41.0
+10.72,20.5,male,153.0,48.0,uncomplicated,no appendicitis,6.0,6.0,no,yes,yes,yes,no,no,38.8,no,normal,no,yes,413.0
+9.86,14.5,male,141.4,29.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,yes,no,no,36.8,no,normal,no,yes,269.0
+11.27,15.98,female,156.2,39.0,uncomplicated,appendicitis,4.0,2.0,no,yes,no,no,no,no,37.5,no,normal,no,no,42.0
+13.86,23.8,male,160.5,61.3,uncomplicated,appendicitis,7.0,4.0,no,yes,yes,no,yes,no,37.2,no,normal,no,yes,270.0
+12.96,16.83,female,168.0,47.5,uncomplicated,no appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.5,no,normal,local,yes,271.0
+11.38,30.63,female,149.0,68.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,no,38.4,no,normal,no,no,272.0
+10.74,26.98,male,146.0,57.5,uncomplicated,appendicitis,5.0,3.0,no,yes,no,no,no,no,37.3,no,normal,local,no,43.0
+13.9,23.8,female,152.0,54.7,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,no,37.3,no,normal,no,no,
+5.53,13.0,female,118.0,18.1,uncomplicated,appendicitis,9.0,10.0,yes,yes,no,yes,yes,yes,38.5,no,normal,no,no,44.0
+11.38,17.33,male,150.0,39.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,no,yes,no,yes,36.8,no,normal,no,yes,276.0
+11.84,17.75,male,152.0,41.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,no,yes,no,no,38.8,no,normal,local,no,45.0
+9.26,18.68,male,144.5,39.0,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,no,36.8,no,normal,no,no,46.0
+12.82,16.67,male,149.0,37.0,uncomplicated,appendicitis,7.0,4.0,no,yes,no,no,no,no,37.5,no,normal,no,no,47.0
+12.1,15.74,male,161.0,40.8,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,36.8,no,normal,no,no,278.0
+11.33,28.17,female,156.5,69.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,no,no,no,no,37.0,no,constipation,no,yes,414.0
+10.67,19.71,male,137.0,37.0,uncomplicated,no appendicitis,9.0,10.0,yes,yes,no,yes,yes,yes,38.1,no,normal,no,no,415.0
+17.1,23.42,male,182.5,78.0,uncomplicated,no appendicitis,6.0,4.0,no,yes,yes,no,yes,no,37.0,no,constipation,no,no,416.0
+10.19,16.86,female,144.5,35.2,uncomplicated,no appendicitis,3.0,2.0,no,yes,no,no,no,no,37.3,no,normal,no,no,280.0
+12.63,22.21,male,163.0,59.0,uncomplicated,no appendicitis,4.0,5.0,no,yes,no,yes,no,no,37.0,no,normal,no,no,417.0
+5.86,17.77,male,115.0,23.5,uncomplicated,no appendicitis,6.0,6.0,no,yes,no,no,no,yes,38.7,no,normal,no,no,48.0
+9.67,15.73,female,136.0,29.1,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,36.2,no,normal,no,no,418.0
+11.09,16.43,female,147.0,35.5,uncomplicated,no appendicitis,7.0,6.0,yes,yes,no,no,yes,no,36.4,no,normal,no,no,283.0
+10.01,18.94,male,134.0,34.0,uncomplicated,appendicitis,5.0,5.0,no,yes,no,yes,no,no,37.3,no,normal,local,no,49.0
+12.87,15.15,female,162.5,40.0,uncomplicated,no appendicitis,7.0,4.0,no,yes,yes,no,no,no,38.6,no,diarrhea,no,no,419.0
+6.7,15.84,male,120.5,23.0,uncomplicated,no appendicitis,7.0,4.0,no,yes,yes,no,no,no,37.5,no,normal,no,no,284.0
+14.4,19.6,female,166.0,54.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,yes,no,no,yes,37.5,no,diarrhea,no,yes,420.0
+5.81,14.69,male,119.0,20.8,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.1,no,normal,local,no,50.0
+12.22,20.03,female,154.0,47.5,uncomplicated,no appendicitis,9.0,8.0,yes,yes,yes,yes,no,no,38.4,no,normal,no,yes,421.0
+8.58,18.06,female,170.0,52.2,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.8,no,normal,no,no,287.0
+5.03,14.52,male,115.0,19.2,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,40.0,no,diarrhea,no,no,51.0
+12.06,17.6,female,144.0,36.5,uncomplicated,appendicitis,7.0,5.0,yes,yes,no,no,no,no,38.0,no,normal,no,no,422.0
+6.38,13.89,female,120.0,20.0,uncomplicated,no appendicitis,7.0,4.0,no,yes,no,no,no,no,37.8,no,normal,no,no,423.0
+15.32,21.93,female,154.0,52.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,no,yes,no,no,36.8,no,normal,no,no,291.0
+5.33,15.04,male,121.5,22.2,uncomplicated,no appendicitis,2.0,2.0,no,no,no,no,yes,yes,36.3,no,normal,no,no,292.0
+14.1,18.82,male,163.0,50.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,yes,normal,no,no,293.0
+11.42,21.93,female,151.0,50.0,uncomplicated,no appendicitis,3.0,5.0,no,yes,no,yes,yes,no,36.9,no,normal,no,no,424.0
+10.24,14.65,male,134.5,26.5,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,no,yes,37.2,no,normal,no,no,294.0
+11.05,25.63,female,146.5,55.0,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,yes,no,37.0,no,normal,no,yes,297.0
+11.62,25.96,male,150.0,58.4,uncomplicated,no appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.0,no,normal,no,no,298.0
+14.2,16.16,male,165.0,44.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.6,no,normal,no,no,300.0
+10.1,17.71,male,136.5,33.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,no,36.7,no,normal,no,no,301.0
+13.82,27.11,female,150.0,61.0,uncomplicated,appendicitis,5.0,6.0,no,yes,yes,yes,yes,yes,36.8,no,constipation,no,no,52.0
+11.27,15.48,female,146.0,33.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.6,no,normal,no,no,302.0
+13.25,30.86,male,161.0,80.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,no,no,no,no,36.8,no,constipation,no,no,303.0
+9.97,16.61,female,127.5,27.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,yes,no,no,no,37.0,yes,normal,no,no,425.0
+12.63,21.25,male,181.5,70.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,no,no,no,no,37.0,no,normal,no,no,305.0
+9.43,15.95,female,146.0,34.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,37.2,no,constipation,no,no,306.0
+12.93,23.62,male,159.5,60.1,uncomplicated,appendicitis,10.0,9.0,yes,yes,yes,yes,yes,yes,37.4,no,diarrhea,no,yes,54.0
+8.87,14.59,male,134.5,26.4,uncomplicated,no appendicitis,6.0,5.0,yes,yes,no,no,yes,yes,37.9,no,normal,no,no,426.0
+4.15,15.13,female,106.0,17.0,uncomplicated,no appendicitis,6.0,4.0,no,yes,no,no,no,no,37.5,yes,normal,no,no,427.0
+14.6,23.19,male,154.0,55.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,yes,no,37.0,no,normal,no,yes,307.0
+5.34,15.66,male,113.0,20.0,uncomplicated,no appendicitis,5.0,6.0,no,yes,no,yes,no,no,38.0,no,normal,no,no,428.0
+15.81,22.81,female,152.0,52.7,uncomplicated,no appendicitis,7.0,7.0,yes,yes,yes,yes,yes,no,36.8,no,diarrhea,no,yes,308.0
+10.72,13.45,female,143.0,27.5,uncomplicated,no appendicitis,3.0,5.0,yes,yes,no,yes,no,no,37.2,no,normal,no,no,309.0
+14.52,16.79,male,181.0,55.0,uncomplicated,no appendicitis,4.0,4.0,yes,yes,no,no,yes,no,37.0,no,diarrhea,no,no,310.0
+8.97,16.11,female,125.3,25.3,uncomplicated,no appendicitis,7.0,5.0,no,yes,no,no,no,no,38.8,no,constipation,no,no,55.0
+10.9,22.07,female,150.5,50.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,no,no,no,no,36.8,no,constipation,no,no,56.0
+16.33,24.06,male,173.0,72.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,yes,no,yes,no,36.2,no,diarrhea,no,yes,312.0
+12.92,19.14,female,164.5,51.8,uncomplicated,appendicitis,3.0,5.0,no,yes,no,yes,no,yes,37.2,no,normal,no,no,57.0
+15.75,30.73,female,170.0,88.8,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,yes,no,36.8,no,normal,no,no,429.0
+6.18,14.86,male,116.0,20.0,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.9,no,normal,local,no,430.0
+14.97,20.57,female,165.0,56.0,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,37.1,yes,normal,no,no,313.0
+3.37,14.19,male,94.6,12.7,uncomplicated,no appendicitis,7.0,5.0,no,yes,no,no,no,no,38.5,no,normal,no,no,314.0
+12.96,19.23,male,146.0,41.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.2,no,normal,no,no,58.0
+11.45,19.84,female,146.2,42.4,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,yes,no,37.2,no,normal,no,no,315.0
+4.77,14.06,female,108.0,16.4,uncomplicated,no appendicitis,7.0,5.0,no,yes,no,no,no,no,39.0,no,normal,no,no,374.0
+10.54,15.99,male,133.5,28.5,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,37.2,no,normal,no,no,3.0
+10.43,16.19,male,146.0,34.5,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,37.0,no,normal,local,no,4.0
+12.53,16.49,male,159.0,41.7,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,38.7,no,normal,no,no,1.0
+9.11,23.98,female,138.5,46.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,no,37.8,no,diarrhea,no,yes,375.0
+0.85,18.49,male,143.0,37.8,uncomplicated,no appendicitis,8.0,7.0,yes,yes,no,no,no,yes,38.8,no,normal,no,no,376.0
+16.16,21.23,female,158.0,53.0,uncomplicated,no appendicitis,5.0,5.0,no,yes,no,no,yes,yes,37.2,no,normal,no,no,210.0
+13.27,20.45,female,164.0,55.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,no,constipation,no,yes,5.0
+17.37,22.64,female,153.0,53.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,36.2,no,normal,no,yes,377.0
+12.89,23.86,male,146.2,51.0,uncomplicated,appendicitis,4.0,4.0,no,yes,yes,no,no,yes,37.8,no,constipation,no,no,211.0
+9.39,14.92,female,128.4,24.6,uncomplicated,no appendicitis,5.0,4.0,yes,yes,no,no,no,no,37.9,no,normal,no,yes,212.0
+7.4,15.2,male,123.0,23.0,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,no,yes,38.0,no,constipation,no,no,6.0
+12.59,16.94,male,147.8,37.0,uncomplicated,no appendicitis,5.0,5.0,yes,yes,no,no,yes,no,39.0,no,diarrhea,no,no,378.0
+6.79,14.2,male,130.0,24.0,uncomplicated,no appendicitis,4.0,3.0,yes,yes,no,no,no,no,37.2,no,normal,no,no,213.0
+13.22,23.6,female,171.0,69.0,uncomplicated,no appendicitis,3.0,3.0,yes,yes,no,no,no,no,36.2,yes,diarrhea,no,yes,7.0
+11.44,17.94,male,153.0,42.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,no,yes,no,no,37.8,yes,diarrhea,no,yes,9.0
+10.25,16.8,male,160.0,43.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,39.0,no,diarrhea,no,yes,379.0
+9.71,32.37,female,135.0,59.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,no,no,no,no,37.0,no,normal,no,yes,216.0
+15.12,23.6,female,160.5,60.8,uncomplicated,appendicitis,8.0,6.0,yes,yes,yes,no,yes,no,38.7,no,diarrhea,no,no,10.0
+7.24,13.95,male,136.5,26.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,no,no,38.2,no,normal,no,no,217.0
+14.86,24.62,male,178.0,78.0,uncomplicated,no appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,39.5,no,normal,no,no,380.0
+12.19,23.81,female,169.0,68.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,no,39.0,no,normal,no,no,218.0
+11.69,19.27,male,154.0,45.7,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,38.7,no,diarrhea,no,no,12.0
+9.56,15.94,female,133.7,28.5,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,no,constipation,no,no,13.0
+9.9,14.4,male,146.0,30.7,uncomplicated,no appendicitis,7.0,4.0,no,yes,no,no,no,no,37.9,no,constipation,local,no,381.0
+15.59,19.05,female,173.0,57.0,uncomplicated,no appendicitis,8.0,6.0,yes,yes,yes,no,yes,no,38.5,no,constipation,no,yes,382.0
+16.76,25.06,female,149.5,56.0,uncomplicated,no appendicitis,3.0,4.0,no,yes,yes,yes,no,no,36.8,no,normal,no,no,219.0
+15.29,21.97,female,167.6,61.7,uncomplicated,no appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,36.8,no,normal,local,no,383.0
+,,,,,,,,,,,,,,,,,,,,
+10.97,23.31,female,145.0,49.0,uncomplicated,no appendicitis,,,no,yes,no,yes,yes,no,37.2,yes,normal,no,no,384.0
+9.46,14.22,male,136.0,26.3,uncomplicated,appendicitis,4.0,2.0,no,no,no,no,yes,no,37.8,no,diarrhea,no,no,14.0
+15.63,19.34,male,185.0,66.2,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,no,no,39.9,no,normal,no,no,223.0
+14.48,22.66,female,165.0,61.7,uncomplicated,appendicitis,4.0,6.0,yes,yes,no,yes,yes,no,37.2,no,diarrhea,no,yes,15.0
+15.35,15.62,male,164.0,42.0,uncomplicated,appendicitis,5.0,3.0,no,yes,no,no,no,no,36.8,no,normal,no,no,16.0
+15.66,19.71,male,183.0,66.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,37.1,no,normal,no,no,17.0
+13.94,16.0,male,142.5,32.5,uncomplicated,no appendicitis,3.0,2.0,no,yes,yes,no,no,no,37.1,no,normal,no,yes,224.0
+17.08,28.09,female,164.5,76.0,uncomplicated,no appendicitis,5.0,4.0,no,no,no,no,yes,no,36.2,no,normal,no,no,225.0
+11.39,16.85,male,149.0,37.4,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.1,no,constipation,no,no,385.0
+12.56,21.77,male,148.5,48.0,uncomplicated,no appendicitis,5.0,4.0,no,yes,no,no,yes,no,37.4,no,diarrhea,local,no,386.0
+5.18,13.31,male,113.0,17.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,38.8,no,constipation,local,no,387.0
+14.99,17.92,female,164.0,48.2,uncomplicated,no appendicitis,5.0,3.0,no,yes,no,no,yes,no,37.5,no,normal,no,yes,388.0
+12.17,22.2,female,145.5,47.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,yes,no,yes,yes,38.2,no,normal,no,yes,227.0
+12.39,16.34,female,158.4,41.0,uncomplicated,appendicitis,6.0,5.0,no,yes,yes,yes,no,no,37.0,no,normal,no,no,18.0
+11.0,22.46,female,156.5,55.0,uncomplicated,no appendicitis,4.0,3.0,no,yes,yes,no,yes,no,37.0,no,diarrhea,no,no,228.0
+12.19,18.59,male,159.0,47.0,uncomplicated,appendicitis,5.0,3.0,no,yes,yes,no,no,no,37.0,no,constipation,local,yes,19.0
+11.33,19.04,female,151.5,43.7,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.0,no,normal,no,no,229.0
+11.11,23.12,male,158.4,58.0,uncomplicated,no appendicitis,6.0,6.0,yes,yes,no,no,yes,yes,38.6,no,constipation,local,no,390.0
+6.28,14.98,male,132.0,26.1,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,no,38.2,no,normal,no,no,20.0
+17.45,17.18,male,174.0,52.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,no,232.0
+11.27,15.19,female,152.0,35.1,uncomplicated,no appendicitis,6.0,7.0,no,yes,yes,yes,yes,no,38.0,no,normal,no,no,233.0
+8.47,16.04,male,129.5,26.9,uncomplicated,no appendicitis,6.0,6.0,yes,yes,no,no,yes,yes,38.1,no,normal,no,no,392.0
+14.25,22.43,male,158.0,56.0,uncomplicated,appendicitis,5.0,5.0,no,yes,no,no,yes,yes,36.8,no,diarrhea,no,no,21.0
+12.2,16.91,male,149.5,37.8,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.3,no,normal,no,no,393.0
+13.47,18.53,female,168.0,52.3,uncomplicated,no appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,37.0,no,constipation,no,yes,394.0
+9.58,19.02,male,145.0,40.0,uncomplicated,no appendicitis,3.0,2.0,no,yes,no,no,no,no,37.6,no,normal,local,no,235.0
+8.58,18.8,male,138.0,35.8,uncomplicated,no appendicitis,3.0,2.0,no,yes,no,no,no,no,37.4,yes,normal,no,no,25.0
+11.48,17.35,male,141.0,34.5,uncomplicated,appendicitis,8.0,8.0,yes,yes,yes,yes,yes,no,39.0,no,normal,no,yes,26.0
+16.78,18.63,female,158.0,46.5,uncomplicated,no appendicitis,3.0,4.0,no,yes,no,no,no,no,37.7,no,normal,no,no,236.0
+15.13,21.78,male,156.0,53.0,uncomplicated,no appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.0,no,diarrhea,local,no,27.0
+7.1,15.28,male,120.0,22.0,uncomplicated,no appendicitis,4.0,3.0,no,no,no,no,yes,no,37.1,no,normal,no,no,237.0
+13.56,28.6,female,157.0,70.5,uncomplicated,no appendicitis,2.0,1.0,no,no,no,no,no,no,37.2,no,normal,no,no,241.0
+5.0,16.02,female,106.0,18.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,no,no,38.4,no,normal,no,no,395.0
+12.71,15.11,female,156.5,37.0,uncomplicated,no appendicitis,5.0,3.0,no,yes,no,no,no,no,37.2,no,diarrhea,no,no,396.0
+11.04,17.36,female,161.0,45.0,uncomplicated,no appendicitis,8.0,5.0,yes,yes,yes,no,yes,no,37.0,no,normal,no,no,397.0
+15.21,35.38,female,155.0,85.0,uncomplicated,appendicitis,7.0,8.0,yes,yes,no,yes,yes,yes,36.8,no,normal,no,yes,28.0
+11.37,12.55,female,140.0,24.6,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,no,yes,38.3,no,constipation,no,no,398.0
+12.44,22.39,female,171.7,66.0,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,yes,no,37.2,no,normal,no,yes,29.0
+15.71,19.84,female,168.0,56.0,uncomplicated,appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,37.0,no,normal,no,yes,30.0
+15.28,20.45,male,181.0,67.0,uncomplicated,no appendicitis,4.0,4.0,no,yes,no,no,yes,yes,36.8,no,normal,no,no,242.0
+4.71,13.29,male,108.0,15.5,uncomplicated,no appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.4,no,diarrhea,no,no,399.0
+16.19,19.53,female,160.0,50.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,37.2,no,normal,no,no,31.0
+11.25,20.25,male,161.0,52.5,uncomplicated,no appendicitis,,,no,yes,no,no,no,no,36.9,no,normal,no,no,243.0
+14.49,30.44,female,168.0,85.9,uncomplicated,no appendicitis,4.0,3.0,no,yes,yes,no,yes,no,37.0,no,normal,no,no,245.0
+15.72,19.96,female,166.0,55.0,uncomplicated,no appendicitis,2.0,1.0,no,no,no,no,no,no,37.0,yes,normal,no,no,246.0
+13.52,18.96,female,164.0,51.0,uncomplicated,no appendicitis,4.0,4.0,no,no,no,no,yes,no,36.8,no,normal,no,no,247.0
+9.76,14.18,male,141.5,28.4,uncomplicated,appendicitis,4.0,4.0,yes,yes,no,no,no,yes,36.0,no,normal,no,yes,32.0
+11.26,23.0,female,161.5,60.0,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,yes,249.0
+17.21,26.05,female,160.0,66.7,uncomplicated,no appendicitis,,,no,yes,yes,no,yes,no,37.2,no,normal,local,yes,400.0
+12.43,19.38,male,170.0,56.0,uncomplicated,no appendicitis,8.0,6.0,no,yes,no,no,yes,no,39.0,no,normal,local,no,401.0
+7.45,12.39,male,146.0,26.4,uncomplicated,no appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.1,no,normal,no,no,402.0
+13.96,27.78,female,166.5,77.0,uncomplicated,no appendicitis,4.0,5.0,no,yes,yes,yes,yes,no,36.8,no,normal,no,no,403.0
+12.61,28.06,male,172.0,83.0,uncomplicated,no appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,no,250.0
+17.46,23.1,female,162.5,61.0,uncomplicated,no appendicitis,7.0,7.0,no,yes,no,yes,yes,no,36.8,no,normal,no,no,404.0
+12.51,18.59,male,148.5,41.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.0,no,diarrhea,no,no,33.0
+7.37,19.66,male,131.5,34.0,complicated,appendicitis,7.0,6.0,no,yes,no,no,no,yes,36.4,,diarrhea,local,yes,502.0
+11.22,22.67,male,148.5,50.0,uncomplicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.5,no,constipation,local,no,503.0
+12.52,16.65,male,155.0,40.0,complicated,appendicitis,9.0,9.0,yes,yes,yes,yes,yes,yes,36.8,,normal,local,,504.0
+9.89,21.08,male,154.0,50.0,uncomplicated,appendicitis,6.0,4.0,yes,yes,yes,no,no,no,37.0,no,constipation,local,yes,505.0
+4.38,18.33,male,106.0,20.6,complicated,appendicitis,,,,,,,yes,yes,37.3,no,diarrhea,,,506.0
+13.83,17.3,female,170.0,50.0,uncomplicated,appendicitis,3.0,2.0,no,yes,yes,,no,no,37.1,,normal,generalized,yes,507.0
+5.83,,male,,20.5,complicated,appendicitis,7.0,7.0,no,yes,,yes,no,yes,39.0,no,normal,local,no,508.0
+16.23,21.77,female,166.0,60.0,uncomplicated,appendicitis,,,no,yes,yes,no,yes,yes,37.0,no,normal,no,yes,509.0
+9.32,14.92,male,132.0,26.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,,,yes,yes,36.5,no,normal,no,,510.0
+14.79,17.37,male,154.0,41.2,uncomplicated,appendicitis,4.0,3.0,yes,yes,yes,no,no,no,36.3,yes,constipation,no,yes,511.0
+5.72,14.36,female,118.0,20.0,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,no,yes,39.1,no,,no,,512.0
+12.99,,female,,50.0,complicated,appendicitis,6.0,7.0,no,yes,yes,yes,yes,yes,36.8,,normal,no,,513.0
+4.94,15.28,female,120.0,22.0,complicated,appendicitis,8.0,9.0,no,yes,,yes,yes,yes,38.2,yes,constipation,no,no,514.0
+8.13,18.51,female,123.0,28.0,complicated,appendicitis,7.0,5.0,no,yes,yes,no,yes,yes,38.0,,,no,,515.0
+13.16,15.94,female,168.0,45.0,uncomplicated,appendicitis,5.0,6.0,no,yes,no,yes,no,yes,36.7,no,normal,no,yes,516.0
+18.36,,female,,,uncomplicated,appendicitis,8.0,7.0,yes,yes,yes,no,yes,yes,36.2,no,normal,no,no,
+6.49,16.24,male,119.0,23.0,complicated,appendicitis,6.0,7.0,no,yes,yes,yes,no,yes,38.9,,normal,no,yes,517.0
+11.24,21.49,male,151.0,49.0,complicated,appendicitis,10.0,9.0,yes,yes,yes,yes,yes,yes,37.8,no,normal,no,no,518.0
+14.36,18.82,male,163.0,50.0,uncomplicated,appendicitis,10.0,7.0,yes,yes,yes,,yes,yes,37.5,no,constipation,local,yes,520.0
+14.81,35.49,male,161.0,92.0,complicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.4,,normal,no,no,521.0
+12.66,17.6,male,145.0,37.0,complicated,appendicitis,7.0,6.0,no,yes,yes,no,yes,yes,36.3,no,normal,no,no,522.0
+12.79,22.83,male,158.0,57.0,complicated,appendicitis,,,yes,yes,,,yes,yes,38.4,no,normal,generalized,no,523.0
+6.25,14.86325803,female,116.0,20.0,complicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,37.1,,,no,yes,524.0
+10.32,14.66,female,130.6,25.0,uncomplicated,appendicitis,5.0,3.0,no,yes,yes,no,no,yes,37.5,no,normal,no,no,525.0
+16.25,31.38,female,174.0,95.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,yes,yes,35.8,no,normal,no,no,527.0
+13.02,19.33,male,164.0,52.0,uncomplicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.3,no,normal,generalized,yes,528.0
+12.97,17.8,male,148.0,39.0,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,yes,yes,37.2,no,normal,no,yes,529.0
+13.93,28.39,male,172.0,84.0,uncomplicated,appendicitis,,,,,,,,,,,diarrhea,,no,530.0
+9.25,18.81,male,144.0,39.0,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,36.8,,,local,yes,531.0
+6.64,15.37,male,121.0,22.5,complicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,38.8,yes,normal,no,no,532.0
+12.52,15.65,male,143.0,32.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,yes,36.4,no,constipation,local,no,533.0
+11.96,21.88,female,160.0,56.0,uncomplicated,appendicitis,4.0,6.0,no,yes,yes,no,yes,yes,37.7,no,diarrhea,local,no,534.0
+4.3,14.51,female,105.0,16.0,complicated,appendicitis,7.0,6.0,no,yes,yes,no,yes,yes,38.0,no,constipation,generalized,no,535.0
+11.42,14.54,male,140.0,28.5,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,35.9,,diarrhea,local,no,536.0
+12.59,15.62,female,164.0,42.0,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,no,yes,37.8,yes,diarrhea,no,yes,537.0
+13.72,18.19,female,177.0,57.0,uncomplicated,appendicitis,7.0,8.0,no,yes,yes,yes,no,yes,38.7,,normal,no,no,538.0
+3.96,16.0,female,100.0,16.0,uncomplicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,39.2,no,normal,generalized,no,539.0
+7.44,15.09,female,130.0,25.5,complicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.3,no,constipation,no,no,540.0
+10.27,14.44,female,138.0,27.5,complicated,appendicitis,,,,,,,,,37.8,no,diarrhea,no,no,774.0
+2.8,14.77,male,92.0,12.5,complicated,appendicitis,6.0,5.0,no,no,no,no,yes,yes,39.6,no,"constipation, diarrhea",generalized,no,542.0
+7.42,,female,,25.0,complicated,appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.8,no,constipation,generalized,no,543.0
+11.24,16.89,female,150.0,38.0,uncomplicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,38.1,,,no,no,545.0
+10.46,14.7,male,133.0,26.0,uncomplicated,appendicitis,7.0,9.0,yes,yes,yes,no,yes,yes,36.7,no,normal,no,no,546.0
+12.56,15.79,female,151.0,36.0,uncomplicated,no appendicitis,,,,,,,,,,no,,,,547.0
+12.83,16.02,male,158.0,40.0,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,no,yes,38.2,no,normal,generalized,yes,548.0
+2.6,14.88,male,97.0,14.0,uncomplicated,appendicitis,5.0,5.0,no,yes,no,no,yes,yes,37.3,no,normal,no,no,550.0
+15.68,19.6,female,166.0,54.0,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,36.3,yes,diarrhea,no,no,551.0
+10.71,18.74,male,147.0,40.5,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.7,no,normal,no,no,553.0
+10.79,29.98,female,178.0,95.0,complicated,appendicitis,10.0,7.0,yes,yes,yes,no,yes,yes,37.4,no,normal,no,no,554.0
+15.0,19.62,male,182.0,65.0,uncomplicated,appendicitis,8.0,6.0,yes,yes,yes,no,yes,yes,37.0,yes,diarrhea,no,no,555.0
+15.57,18.21,male,183.0,61.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,no,no,yes,yes,36.8,no,normal,no,yes,556.0
+14.95,20.32,female,163.0,54.0,uncomplicated,,,,,,,,,,,,,,,557.0
+8.88,14.03,female,133.5,25.0,complicated,appendicitis,7.0,8.0,yes,yes,yes,yes,yes,yes,36.3,no,normal,generalized,no,558.0
+9.04,16.33,female,140.0,32.0,uncomplicated,appendicitis,,,no,yes,no,no,no,yes,37.7,no,normal,no,no,559.0
+11.55,14.43,male,143.0,29.5,complicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,38.3,no,diarrhea,no,no,560.0
+13.73,16.9,male,190.0,61.0,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,37.2,no,normal,no,no,561.0
+10.76,15.82,male,140.0,31.0,complicated,appendicitis,5.0,5.0,no,yes,no,no,yes,yes,38.3,no,normal,local,yes,562.0
+9.25,15.23,male,138.0,29.0,complicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.5,no,normal,no,no,563.0
+5.48,15.34,male,117.0,21.0,uncomplicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,38.7,no,normal,generalized,no,564.0
+7.45,17.75,male,130.0,30.0,uncomplicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.4,no,normal,no,no,565.0
+9.45,20.27,female,149.0,45.0,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.4,no,normal,no,no,566.0
+16.9,33.08,female,173.0,99.0,complicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,36.9,no,normal,local,yes,567.0
+12.32,16.02,male,154.0,37.8,complicated,appendicitis,9.0,7.0,yes,yes,no,no,yes,yes,37.6,no,normal,no,yes,568.0
+6.64,12.82,male,128.0,21.0,complicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,38.7,no,normal,no,yes,569.0
+12.5,14.91,male,151.0,34.0,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,yes,yes,37.4,no,normal,no,no,570.0
+17.43,8.95,female,129.0,29.0,complicated,appendicitis,8.0,8.0,no,yes,yes,no,yes,yes,37.0,no,normal,no,no,571.0
+16.99,,female,168.0,59.0,complicated,appendicitis,,,yes,yes,yes,no,no,yes,37.5,no,constipation,no,yes,572.0
+11.2,16.67,female,149.0,37.0,complicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,37.2,no,normal,no,no,441.0
+7.19,13.21,male,130.5,22.5,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,36.6,no,normal,local,yes,
+9.92,14.47,male,144.0,30.0,uncomplicated,appendicitis,8.0,8.0,yes,yes,no,yes,no,yes,37.6,no,normal,no,no,443.0
+8.17,17.59,male,146.0,37.5,complicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,37.0,no,normal,local,no,444.0
+10.11,14.92,male,143.0,30.5,complicated,appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,36.6,no,normal,no,no,445.0
+8.2,13.75,female,133.5,24.5,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,37.0,no,normal,no,no,446.0
+15.38,23.41,female,163.0,62.2,uncomplicated,appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.3,no,diarrhea,no,no,447.0
+11.63,16.34,female,154.5,39.0,complicated,appendicitis,,,no,yes,yes,yes,yes,yes,37.8,no,normal,local,yes,448.0
+3.43,14.58,male,98.0,14.0,complicated,appendicitis,10.0,8.0,yes,yes,yes,no,yes,yes,37.9,no,normal,no,no,449.0
+4.62,19.24,female,114.0,25.0,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,38.0,no,diarrhea,no,no,450.0
+8.04,14.31,female,124.0,22.0,complicated,appendicitis,8.0,7.0,no,yes,yes,yes,no,yes,37.9,no,normal,local,no,451.0
+4.61,17.03,male,107.0,19.5,complicated,appendicitis,,,no,yes,no,yes,yes,yes,37.0,no,normal,local,no,452.0
+16.59,21.73,male,179.5,70.0,complicated,appendicitis,6.0,4.0,no,yes,yes,no,yes,yes,37.7,no,constipation,generalized,no,453.0
+7.53,,male,,23.3,complicated,appendicitis,7.0,5.0,no,yes,no,no,no,yes,37.8,no,normal,generalized,no,454.0
+4.78,16.5,female,103.0,17.5,complicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,37.5,no,normal,local,no,455.0
+9.02,15.04,female,134.0,27.0,complicated,appendicitis,,,no,yes,no,no,yes,yes,37.6,no,diarrhea,generalized,no,456.0
+16.13,19.93,male,182.0,66.0,complicated,appendicitis,8.0,7.0,yes,yes,yes,no,yes,yes,37.3,no,normal,no,no,457.0
+11.15,14.43,male,143.0,29.5,complicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,37.2,no,normal,no,no,458.0
+9.95,18.26,female,148.0,40.0,complicated,appendicitis,8.0,6.0,no,yes,yes,no,no,yes,36.4,no,normal,no,no,459.0
+14.27,23.51,male,165.0,64.0,complicated,appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.4,no,diarrhea,generalized,yes,460.0
+8.32,13.24,male,128.0,21.7,complicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.0,no,diarrhea,generalized,no,461.0
+7.34,15.62,female,125.0,24.4,complicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,38.2,yes,constipation,local,no,462.0
+11.46,16.87,female,154.0,40.0,uncomplicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,37.6,no,normal,no,no,463.0
+4.28,13.38,male,116.0,18.0,complicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,38.9,no,constipation,no,,464.0
+8.1,14.81,male,135.0,27.0,complicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,yes,37.8,yes,diarrhea,no,yes,465.0
+10.62,23.98,female,137.0,45.0,uncomplicated,appendicitis,,,no,yes,yes,yes,yes,yes,39.2,no,diarrhea,no,no,466.0
+15.02,20.81,female,159.0,52.6,uncomplicated,appendicitis,,,yes,yes,yes,no,yes,yes,37.2,no,diarrhea,no,yes,467.0
+14.58,20.52,female,171.0,60.0,uncomplicated,appendicitis,,,yes,yes,yes,no,no,yes,37.3,no,diarrhea,no,yes,468.0
+8.47,,male,,24.0,uncomplicated,appendicitis,10.0,8.0,yes,yes,yes,no,yes,yes,38.6,no,normal,no,yes,469.0
+4.23,15.83,male,92.0,13.4,uncomplicated,appendicitis,3.0,2.0,no,no,no,no,yes,yes,37.9,no,normal,local,no,471.0
+10.34,19.82,male,141.0,39.4,uncomplicated,appendicitis,10.0,7.0,yes,yes,yes,no,yes,yes,37.7,no,normal,local,yes,472.0
+8.29,14.12,male,132.0,24.6,uncomplicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,37.9,yes,diarrhea,no,yes,473.0
+9.14,15.25,male,135.5,28.0,complicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,38.6,no,normal,no,no,474.0
+10.49,16.24,male,143.0,33.2,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,yes,38.6,no,diarrhea,no,no,475.0
+14.42,23.24,female,151.0,53.0,uncomplicated,appendicitis,,,no,yes,yes,no,no,no,36.8,no,normal,no,yes,476.0
+11.37,20.93,male,145.0,44.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,36.4,no,constipation,no,yes,477.0
+3.74,15.31,male,103.5,16.4,uncomplicated,appendicitis,5.0,5.0,no,yes,no,no,yes,yes,37.0,no,normal,no,no,478.0
+14.42,23.24,female,151.0,53.0,uncomplicated,appendicitis,,,,,,,,,36.8,no,,no,no,
+12.7,26.81,male,165.0,73.0,complicated,appendicitis,8.0,6.0,no,yes,yes,no,no,yes,37.3,no,normal,no,yes,479.0
+3.2,14.79,male,104.0,16.0,complicated,appendicitis,6.0,5.0,no,no,no,no,yes,yes,36.8,no,diarrhea,local,no,480.0
+11.05,15.32,female,131.5,26.5,complicated,appendicitis,6.0,7.0,no,no,no,yes,yes,yes,39.0,no,constipation,local,no,481.0
+5.72,14.49,female,126.0,23.0,complicated,no appendicitis,3.0,3.0,no,no,no,no,yes,yes,40.0,yes,,no,,482.0
+7.81,,male,,23.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.0,no,diarrhea,generalized,no,484.0
+15.5,20.03,female,158.0,50.0,complicated,appendicitis,5.0,4.0,no,no,no,no,yes,yes,37.2,no,constipation,no,no,485.0
+8.58,17.48,male,131.0,30.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,yes,36.2,no,normal,no,no,486.0
+2.06,15.43,male,90.0,12.5,complicated,appendicitis,,,no,yes,,,yes,yes,37.0,no,normal,no,no,487.0
+8.06,14.18,male,142.0,28.6,complicated,appendicitis,8.0,7.0,no,yes,no,no,yes,yes,37.6,no,normal,no,no,488.0
+4.69,14.55,female,105.5,16.2,uncomplicated,appendicitis,7.0,5.0,no,yes,no,no,yes,yes,37.5,no,normal,local,yes,489.0
+7.12,14.65,female,128.0,24.0,uncomplicated,appendicitis,8.0,6.0,yes,yes,yes,no,no,yes,36.6,no,normal,no,no,490.0
+9.61,14.9,male,140.0,29.2,uncomplicated,appendicitis,,,no,no,yes,no,yes,yes,38.7,no,,local,yes,491.0
+5.29,13.87,female,105.0,15.0,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.0,no,constipation,generalized,no,492.0
+12.46,19.29,male,161.0,50.0,uncomplicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.7,no,normal,no,no,493.0
+12.43,18.66,female,157.0,46.0,complicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,37.1,no,normal,generalized,yes,494.0
+7.25,14.73,male,129.5,24.7,uncomplicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,37.5,no,normal,no,yes,495.0
+9.85,15.01,male,139.0,29.0,complicated,appendicitis,,,yes,yes,no,yes,yes,yes,36.8,no,normal,local,no,496.0
+15.48,24.91,female,170.0,72.0,complicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,yes,37.2,no,normal,no,no,497.0
+9.26,14.06,male,138.6,27.0,complicated,appendicitis,6.0,4.0,no,yes,no,no,no,yes,38.0,no,normal,local,yes,498.0
+15.11,24.97,male,179.0,80.0,complicated,appendicitis,3.0,3.0,no,yes,no,no,no,yes,36.9,no,normal,no,no,499.0
+15.12,21.05,female,166.0,58.0,uncomplicated,appendicitis,,,,,,,,,37.5,,,,,500.0
+8.86,15.14,male,136.0,28.0,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,yes,no,36.8,no,normal,local,yes,178.0
+5.92,12.93,male,118.0,18.0,uncomplicated,appendicitis,7.0,8.0,no,yes,no,no,yes,yes,37.0,no,normal,local,no,179.0
+8.76,15.36,female,135.0,28.0,complicated,appendicitis,,,yes,yes,no,yes,yes,yes,39.0,no,normal,local,no,316.0
+11.92,15.86,male,159.0,40.1,uncomplicated,appendicitis,9.0,9.0,yes,yes,no,yes,yes,yes,37.8,no,normal,local,no,180.0
+8.68,16.6,male,131.9,28.55,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,36.0,no,normal,local,no,
+11.48,29.24,female,158.0,73.0,uncomplicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,38.0,no,normal,local,yes,181.0
+9.08,17.65,male,143.0,36.1,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,no,38.2,no,normal,local,no,182.0
+13.89,18.03,female,158.0,45.0,uncomplicated,appendicitis,8.0,5.0,yes,yes,yes,no,no,no,37.5,no,normal,local,no,183.0
+9.75,18.49,female,143.0,37.8,uncomplicated,appendicitis,10.0,9.0,yes,yes,yes,yes,yes,yes,37.5,no,normal,local,no,184.0
+12.78,17.91,female,162.0,47.0,uncomplicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.2,no,normal,local,no,185.0
+10.9,20.28,female,157.0,50.0,complicated,appendicitis,9.0,5.0,no,yes,yes,no,yes,no,37.8,no,normal,local,no,325.0
+15.42,16.71,male,173.0,50.0,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,no,no,36.8,no,normal,local,no,186.0
+11.26,16.89,male,151.0,38.5,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,no,yes,36.8,no,normal,no,no,187.0
+17.87,17.7,male,175.0,54.2,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,no,normal,local,no,188.0
+15.07,32.18,male,174.5,98.0,uncomplicated,appendicitis,4.0,4.0,yes,yes,no,no,yes,no,36.6,no,diarrhea,no,yes,189.0
+10.83,14.29,,140.0,28.5,uncomplicated,appendicitis,9.0,9.0,yes,yes,yes,yes,yes,yes,37.4,no,normal,no,no,66.0
+11.34,21.77,female,157.2,53.8,uncomplicated,appendicitis,7.0,5.0,no,yes,no,no,no,no,38.2,no,diarrhea,generalized,no,190.0
+10.51,14.93,male,134.5,27.0,uncomplicated,appendicitis,8.0,5.0,no,yes,no,no,yes,no,37.4,no,normal,local,no,191.0
+11.67,16.85,female,139.5,32.8,uncomplicated,appendicitis,6.0,6.0,yes,yes,yes,yes,no,yes,37.5,no,normal,no,yes,192.0
+8.36,14.0,female,121.0,20.5,uncomplicated,appendicitis,7.0,6.0,no,yes,yes,yes,no,no,37.8,no,normal,local,no,193.0
+12.8,22.06,male,155.0,53.0,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.4,no,normal,generalized,,334.0
+4.24,15.42,male,105.0,17.0,complicated,appendicitis,,,no,yes,yes,no,yes,no,37.9,no,normal,local,no,335.0
+12.76,18.08,male,149.0,40.15,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,no,38.4,no,normal,local,,194.0
+3.19,13.3,female,95.0,12.0,complicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,38.6,no,diarrhea,local,,338.0
+12.29,22.31,male,150.0,50.2,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,no,37.2,no,normal,local,yes,195.0
+15.88,19.84,female,171.0,58.0,uncomplicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,38.9,no,diarrhea,local,yes,196.0
+10.18,38.16,male,151.0,87.0,uncomplicated,appendicitis,8.0,7.0,no,yes,yes,yes,no,no,38.2,no,constipation,local,no,197.0
+10.58,16.84,male,140.0,33.0,complicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,38.2,,,local,yes,350.0
+0.53,20.37,male,176.0,63.1,uncomplicated,appendicitis,7.0,4.0,no,yes,yes,no,no,no,37.5,no,normal,no,no,198.0
+12.49828884,18.49112426,female,156.0,45.0,complicated,appendicitis,,,no,yes,no,,,,,,diarrhea,,,85.0
+5.11,14.24,female,106.0,16.0,complicated,appendicitis,8.0,7.0,yes,yes,no,no,yes,no,38.5,,,local,,351.0
+15.18,16.26,male,170.0,47.0,uncomplicated,no appendicitis,6.0,5.0,no,yes,no,no,yes,no,39.0,,,local,yes,354.0
+12.55,12.96,male,162.0,34.0,uncomplicated,appendicitis,,,yes,yes,no,no,yes,no,37.8,no,normal,local,no,199.0
+17.28,19.49,male,171.0,57.0,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,yes,no,36.8,yes,normal,no,yes,200.0
+14.62,12.19,female,167.0,34.0,complicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.8,no,diarrhea,generalized,,357.0
+13.19,,male,,43.5,uncomplicated,appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.4,no,diarrhea,generalized,no,
+8.24,20.41,male,146.0,43.5,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.2,no,normal,local,yes,201.0
+17.02,18.73,female,165.0,51.0,uncomplicated,appendicitis,6.0,3.0,no,yes,yes,no,no,no,37.0,no,diarrhea,local,no,358.0
+13.92,26.99,female,170.0,78.0,complicated,appendicitis,,,no,yes,no,no,yes,no,39.5,no,diarrhea,local,no,359.0
+8.15,15.87,male,128.0,26.0,uncomplicated,appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.2,no,normal,generalized,no,202.0
+5.08,17.7,female,114.0,23.0,complicated,appendicitis,6.0,6.0,no,yes,yes,yes,yes,no,38.5,no,diarrhea,local,,360.0
+12.11,20.56,male,146.3,44.0,complicated,appendicitis,,,yes,yes,no,yes,yes,yes,38.4,no,normal,local,yes,361.0
+9.18,16.44,female,139.5,32.0,uncomplicated,appendicitis,9.0,5.0,no,yes,yes,no,yes,no,37.8,no,normal,local,yes,203.0
+13.19,21.19,male,164.0,57.0,uncomplicated,appendicitis,6.0,7.0,no,yes,no,yes,yes,no,37.0,no,normal,local,no,204.0
+12.36,18.78,male,168.0,53.0,complicated,appendicitis,7.0,7.0,no,yes,yes,yes,yes,no,38.3,no,diarrhea,local,yes,364.0
+12.61,18.37,female,165.0,50.0,complicated,appendicitis,5.0,4.0,no,yes,yes,no,yes,no,38.2,no,diarrhea,local,yes,365.0
+0.0,17.1,male,164.0,46.0,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,no,no,37.4,no,normal,local,,205.0
+8.01,15.24,male,125.5,24.0,uncomplicated,appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.0,no,normal,no,no,206.0
+3.83,15.72,male,104.0,17.0,uncomplicated,appendicitis,8.0,8.0,yes,yes,no,no,yes,yes,37.0,no,normal,local,no,207.0
+11.51,21.87,male,151.5,50.2,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.2,no,normal,local,no,367.0
+9.96,13.51,male,146.5,29.0,uncomplicated,appendicitis,9.0,8.0,yes,yes,no,yes,yes,yes,37.0,no,normal,local,no,
+13.94,17.93,male,167.0,50.0,uncomplicated,appendicitis,7.0,6.0,no,yes,yes,yes,no,no,37.4,no,normal,no,yes,208.0
+9.12,16.38,male,143.0,33.5,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,no,yes,38.0,no,normal,local,no,130.0
+11.76,15.07,male,148.0,33.0,uncomplicated,appendicitis,4.0,4.0,no,yes,yes,yes,no,no,37.5,no,normal,local,no,131.0
+16.22,25.23,female,169.5,72.5,complicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,no,37.8,no,constipation,no,yes,252.0
+9.28,16.25,male,142.5,33.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,yes,37.0,no,normal,local,no,132.0
+15.32,18.08,female,176.0,56.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,yes,36.5,no,normal,local,no,133.0
+9.58,14.18,female,132.0,24.7,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.4,no,diarrhea,generalized,no,253.0
+16.78,20.58,male,162.0,54.0,complicated,appendicitis,5.0,6.0,no,yes,no,yes,yes,yes,37.3,no,normal,local,no,254.0
+9.66,16.22,male,149.0,36.0,uncomplicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.0,no,normal,local,no,134.0
+14.79,23.23,male,166.0,64.0,uncomplicated,appendicitis,7.0,8.0,yes,yes,no,yes,yes,no,36.8,no,normal,local,yes,135.0
+7.55,16.76,female,136.0,31.0,uncomplicated,appendicitis,5.0,3.0,no,yes,no,no,no,no,37.8,no,normal,local,no,136.0
+10.21,15.59,female,145.5,33.0,complicated,appendicitis,9.0,8.0,yes,yes,no,no,yes,yes,38.4,no,normal,local,no,257.0
+7.18,13.71,male,122.0,20.4,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,39.3,no,constipation,local,no,258.0
+9.37,18.79,male,135.5,34.5,uncomplicated,appendicitis,6.0,7.0,yes,yes,yes,yes,yes,no,36.8,no,constipation,local,no,137.0
+6.11,14.65,female,128.0,24.0,complicated,appendicitis,8.0,7.0,no,yes,yes,yes,no,yes,37.5,no,normal,local,no,259.0
+0.04,14.1,male,53.0,3.96,complicated,appendicitis,4.0,4.0,no,yes,no,no,no,yes,38.7,no,diarrhea,local,no,260.0
+9.05,15.37,female,126.5,24.6,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.6,no,normal,local,no,138.0
+10.65,17.05,female,146.3,36.5,uncomplicated,appendicitis,8.0,6.0,yes,yes,yes,no,no,yes,37.0,no,normal,local,no,139.0
+10.97,18.11,male,135.0,33.0,uncomplicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,no,37.8,no,diarrhea,local,no,140.0
+12.41,12.6,female,152.0,29.1,complicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,no,38.8,no,normal,no,no,2.0
+9.77,17.35,female,141.2,34.6,uncomplicated,appendicitis,9.0,6.0,no,yes,yes,no,yes,yes,37.2,no,normal,generalized,no,141.0
+13.99,19.0,female,173.5,57.2,uncomplicated,appendicitis,8.0,9.0,yes,yes,no,yes,yes,yes,37.2,no,normal,local,no,142.0
+4.48,14.51,male,105.0,16.0,uncomplicated,appendicitis,6.0,5.0,yes,yes,no,no,no,no,37.6,no,normal,local,no,143.0
+10.15,18.44,female,150.0,41.5,uncomplicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,yes,38.1,no,normal,local,no,144.0
+13.02,18.42,male,145.5,39.0,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,no,no,145.0
+12.31,20.44,female,150.0,46.0,uncomplicated,appendicitis,7.0,8.0,yes,yes,no,yes,no,no,38.5,no,normal,no,yes,146.0
+16.51,20.78,male,190.0,75.0,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,37.6,no,normal,generalized,no,147.0
+16.82,18.59,female,164.0,50.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,yes,no,no,37.6,no,normal,local,no,148.0
+10.34,19.43,male,138.0,37.0,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.8,yes,diarrhea,local,yes,273.0
+3.57,11.34,male,115.0,15.0,complicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,38.2,no,diarrhea,generalized,no,274.0
+15.86,20.44,male,167.0,57.0,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,no,38.6,no,normal,local,no,149.0
+13.1,17.72,female,162.0,46.5,complicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,38.6,no,diarrhea,generalized,no,275.0
+14.74,22.2,male,175.0,68.0,complicated,appendicitis,9.0,7.0,yes,yes,yes,no,yes,no,39.2,no,normal,local,no,150.0
+14.21,25.64,female,158.0,64.0,uncomplicated,appendicitis,4.0,4.0,yes,yes,no,no,no,no,38.2,no,normal,no,yes,151.0
+10.36,17.24,male,146.5,37.0,uncomplicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,36.4,no,normal,local,no,152.0
+14.2,19.93,female,156.3,48.7,uncomplicated,appendicitis,5.0,3.0,no,yes,yes,no,yes,no,37.2,no,constipation,local,yes,153.0
+9.0,17.68,male,147.0,38.2,uncomplicated,appendicitis,8.0,8.0,no,yes,yes,yes,yes,no,38.2,no,normal,local,no,154.0
+4.08,14.6,male,104.7,16.0,uncomplicated,appendicitis,7.0,4.0,no,yes,no,no,no,no,37.8,no,normal,generalized,no,155.0
+9.72,17.6,female,141.0,35.0,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,yes,37.8,no,normal,local,no,279.0
+15.33,20.62,male,167.0,57.5,uncomplicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.8,no,normal,no,yes,156.0
+8.89,17.29,female,139.0,33.4,uncomplicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.7,no,normal,local,no,157.0
+10.57,17.75,female,130.0,30.0,complicated,appendicitis,7.0,6.0,no,yes,yes,no,yes,yes,38.3,no,normal,local,yes,281.0
+7.38,16.24,male,128.0,26.6,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,no,no,38.2,no,normal,local,yes,158.0
+5.11,16.35,female,116.0,22.0,uncomplicated,appendicitis,9.0,6.0,no,yes,yes,no,yes,no,40.2,no,normal,local,no,159.0
+7.26,13.93,male,122.8,21.0,uncomplicated,appendicitis,8.0,7.0,no,yes,yes,yes,no,yes,37.8,no,normal,local,yes,160.0
+16.93,19.15,female,177.0,60.0,complicated,appendicitis,10.0,10.0,yes,yes,yes,yes,yes,yes,38.2,yes,normal,local,no,282.0
+11.91,15.97,male,137.5,30.2,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,yes,no,37.5,no,normal,no,yes,161.0
+12.82,16.98,male,158.0,42.4,uncomplicated,appendicitis,4.0,6.0,no,yes,no,yes,no,yes,37.0,no,diarrhea,local,yes,162.0
+14.55,18.31,male,184.0,62.0,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,39.4,no,diarrhea,local,no,163.0
+9.69,14.7,male,133.0,26.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.4,no,normal,local,yes,164.0
+10.25,16.89,male,146.0,36.0,complicated,appendicitis,5.0,4.0,no,yes,no,no,no,no,36.8,yes,constipation,local,yes,285.0
+11.96,24.86,male,169.0,71.0,uncomplicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,yes,36.9,no,normal,local,yes,165.0
+10.52,22.28,male,134.0,40.0,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,no,yes,37.8,no,normal,local,yes,166.0
+10.87,14.81,male,137.5,28.0,complicated,appendicitis,6.0,4.0,yes,yes,yes,no,yes,no,37.6,no,normal,local,no,288.0
+14.2,20.96,female,162.0,55.0,complicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,yes,37.2,no,normal,local,no,289.0
+13.47,23.31,male,155.0,56.0,complicated,appendicitis,9.0,7.0,yes,yes,no,no,yes,yes,38.4,no,normal,local,no,290.0
+15.9,19.18,female,159.0,48.5,uncomplicated,appendicitis,6.0,7.0,yes,yes,yes,yes,yes,yes,37.2,no,normal,local,yes,167.0
+11.81,20.55,female,156.0,50.0,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,no,no,37.4,no,normal,local,no,168.0
+2.13,15.43,female,90.0,12.5,complicated,appendicitis,3.0,3.0,no,yes,no,no,no,no,39.8,no,normal,generalized,no,295.0
+5.92,16.06,male,123.0,24.3,complicated,appendicitis,6.0,6.0,yes,yes,no,no,yes,yes,39.0,no,normal,local,yes,299.0
+12.15,14.42,male,165.5,39.5,uncomplicated,appendicitis,5.0,4.0,no,yes,no,no,yes,no,36.8,no,normal,local,no,169.0
+11.38,21.08,male,154.0,50.0,uncomplicated,appendicitis,8.0,9.0,no,yes,no,yes,yes,yes,38.5,no,normal,local,no,170.0
+14.95,20.31,female,160.0,52.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,yes,no,no,no,36.1,no,normal,no,yes,
+12.83,19.13,female,168.0,54.0,complicated,appendicitis,8.0,7.0,yes,yes,no,no,no,yes,38.2,no,normal,local,no,304.0
+17.52,31.84,female,155.0,76.5,uncomplicated,appendicitis,4.0,5.0,yes,yes,yes,yes,no,no,37.3,no,diarrhea,no,no,171.0
+12.24,17.22,male,150.5,39.0,uncomplicated,appendicitis,6.0,4.0,no,yes,yes,no,no,no,37.2,no,normal,local,no,172.0
+14.59,28.44,female,156.0,69.2,uncomplicated,appendicitis,4.0,3.0,yes,yes,yes,no,no,no,36.5,no,normal,no,no,173.0
+5.01,14.89,male,103.0,15.8,uncomplicated,appendicitis,3.0,3.0,no,yes,no,no,yes,no,37.3,no,constipation,local,no,174.0
+12.47,15.37,female,142.0,31.0,uncomplicated,appendicitis,9.0,6.0,yes,yes,yes,no,yes,no,37.9,no,normal,local,yes,175.0
+14.97,,female,,52.0,uncomplicated,appendicitis,5.0,4.0,yes,yes,yes,no,no,yes,,no,normal,no,yes,
+11.03,24.62,male,151.5,56.5,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,no,no,37.8,no,normal,local,no,176.0
+10.94,15.75,male,138.0,30.0,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,yes,no,36.8,no,normal,local,no,177.0
+8.76,19.81,male,131.0,34.0,uncomplicated,appendicitis,7.0,5.0,no,yes,yes,no,yes,no,36.9,,normal,local,no,103.0
+10.81,18.12,female,138.0,34.5,uncomplicated,appendicitis,8.0,5.0,no,yes,yes,no,yes,no,37.5,,normal,generalized,,104.0
+13.19,24.59,male,157.5,61.0,uncomplicated,appendicitis,6.0,5.0,no,yes,no,no,no,no,38.5,,constipation,local,,105.0
+6.48,12.15,male,120.0,17.5,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,no,no,36.8,yes,diarrhea,local,,106.0
+5.12,15.39,male,114.0,20.0,complicated,appendicitis,7.0,5.0,no,yes,no,no,yes,no,37.5,,normal,local,,209.0
+8.38,14.52,female,132.5,25.5,uncomplicated,appendicitis,8.0,6.0,no,yes,yes,no,yes,no,39.2,,normal,local,,107.0
+13.49,18.43,female,158.0,46.0,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,37.2,,normal,local,no,108.0
+6.76,22.47,male,141.5,45.0,complicated,appendicitis,6.0,4.0,no,yes,yes,no,no,no,39.0,no,normal,local,no,214.0
+14.63,18.44,female,161.0,47.8,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,39.1,,normal,generalized,yes,215.0
+11.48,18.81,female,144.0,39.0,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,38.6,no,normal,no,no,109.0
+11.01,13.71,female,162.5,36.2,complicated,appendicitis,6.0,5.0,no,yes,no,no,yes,yes,40.0,no,diarrhea,local,,220.0
+10.12,15.41,male,140.0,30.2,complicated,appendicitis,9.0,9.0,no,yes,yes,yes,yes,yes,39.8,no,constipation,generalized,no,221.0
+11.5,15.39,male,154.0,36.5,complicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,yes,37.4,no,normal,local,no,222.0
+10.17,16.28,female,144.5,34.0,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,no,37.0,no,constipation,local,,110.0
+17.05,24.51,female,169.0,70.0,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,no,38.0,yes,constipation,local,no,111.0
+12.31,24.62,female,157.4,61.0,complicated,appendicitis,10.0,9.0,yes,yes,yes,yes,yes,no,38.0,no,normal,local,yes,112.0
+8.64,21.36,male,136.0,39.5,uncomplicated,appendicitis,9.0,8.0,no,yes,yes,yes,yes,no,39.0,no,constipation,local,,113.0
+13.37,,male,,,uncomplicated,appendicitis,,,no,yes,,,no,,,no,normal,,,11.0
+7.56,12.6,female,121.5,18.6,complicated,appendicitis,7.0,5.0,no,yes,yes,no,no,no,38.3,no,normal,local,no,226.0
+17.71,21.57,male,180.0,69.9,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.9,no,diarrhea,generalized,no,114.0
+16.86,23.98,male,180.0,77.7,uncomplicated,appendicitis,9.0,7.0,no,yes,yes,no,yes,yes,38.1,no,normal,local,no,115.0
+13.83,23.83,male,160.0,61.0,uncomplicated,appendicitis,6.0,4.0,no,yes,no,no,yes,no,37.5,no,normal,local,yes,116.0
+14.65,17.84,female,162.3,47.0,complicated,appendicitis,6.0,5.0,no,yes,no,no,yes,no,38.0,no,normal,local,no,117.0
+16.87,27.78,female,179.0,89.0,complicated,appendicitis,,,no,yes,no,yes,yes,yes,37.2,,,,,
+10.1,19.04,female,152.0,44.0,uncomplicated,appendicitis,8.0,8.0,yes,yes,no,yes,yes,no,37.6,no,normal,local,,118.0
+12.29,23.63,female,144.0,49.0,uncomplicated,appendicitis,,,,yes,,,yes,,37.2,,,no,,
+10.77,21.79,male,150.0,49.0,complicated,appendicitis,9.0,9.0,yes,yes,no,yes,yes,yes,37.8,no,diarrhea,local,no,231.0
+13.83,21.75,male,147.0,47.0,uncomplicated,appendicitis,3.0,2.0,no,yes,no,no,no,no,37.9,no,constipation,local,no,119.0
+14.4,17.04,female,161.8,44.6,uncomplicated,appendicitis,2.0,4.0,no,yes,no,yes,no,no,37.2,no,normal,local,no,120.0
+8.86,15.75,female,119.0,22.3,uncomplicated,appendicitis,7.0,6.0,yes,yes,no,no,yes,no,37.0,no,normal,local,yes,121.0
+3.33,15.31,male,96.3,14.2,uncomplicated,appendicitis,6.0,7.0,no,yes,no,yes,yes,yes,38.5,no,normal,local,no,122.0
+7.99,13.55,female,128.0,22.1,uncomplicated,appendicitis,5.0,4.0,no,yes,yes,no,yes,yes,36.5,no,constipation,no,no,
+12.04,15.22,female,170.4,44.2,complicated,appendicitis,8.0,6.0,no,yes,no,no,yes,no,38.1,no,normal,local,no,234.0
+10.99,19.17,male,148.0,42.0,uncomplicated,appendicitis,8.0,6.0,no,yes,no,no,yes,yes,37.5,no,diarrhea,local,,24.0
+15.44,22.85,male,182.0,75.7,complicated,appendicitis,8.0,6.0,no,yes,no,no,yes,no,39.0,no,diarrhea,local,no,123.0
+11.55,17.53,female,152.0,40.5,uncomplicated,appendicitis,9.0,7.0,no,yes,yes,yes,yes,no,37.8,no,diarrhea,local,no,124.0
+8.94,14.91,male,138.5,28.6,uncomplicated,appendicitis,4.0,3.0,no,yes,no,no,no,no,36.5,no,normal,local,no,125.0
+14.6,29.24,male,179.4,94.1,complicated,appendicitis,7.0,4.0,no,no,yes,no,yes,no,39.5,no,normal,local,no,238.0
+7.11,17.08,male,121.0,25.0,uncomplicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.2,no,constipation,no,no,239.0
+11.12,20.25,male,144.0,42.0,complicated,appendicitis,5.0,4.0,no,no,no,no,yes,no,38.0,no,normal,local,no,240.0
+15.07,18.83,female,158.0,47.0,uncomplicated,no appendicitis,5.0,7.0,no,yes,no,yes,yes,yes,37.2,no,normal,local,,
+3.7,12.25,male,103.0,13.0,uncomplicated,appendicitis,5.0,3.0,no,no,no,no,yes,yes,37.8,no,diarrhea,no,,
+7.88,18.7,male,130.0,31.6,complicated,appendicitis,7.0,6.0,no,yes,no,no,yes,no,38.2,no,normal,generalized,no,244.0
+14.35,19.74,female,151.0,45.0,uncomplicated,appendicitis,4.0,6.0,no,yes,no,yes,yes,yes,38.0,no,diarrhea,local,yes,
+12.41,25.25,female,166.5,70.0,uncomplicated,appendicitis,8.0,7.0,yes,yes,no,no,no,yes,39.4,no,diarrhea,local,yes,126.0
+17.09,20.43,female,158.0,51.0,complicated,appendicitis,5.0,3.0,no,no,no,no,no,yes,37.8,no,normal,local,no,
+14.99,19.91,female,152.0,46.0,uncomplicated,appendicitis,5.0,3.0,no,yes,no,no,no,no,37.3,yes,normal,no,no,127.0
+7.2,14.3,male,129.3,23.9,uncomplicated,appendicitis,9.0,8.0,yes,yes,no,yes,yes,no,37.5,no,normal,local,no,128.0
+11.51,18.17,male,146.5,39.0,uncomplicated,appendicitis,2.0,2.0,no,yes,no,no,no,no,36.8,no,normal,local,no,129.0
