@@ -115,11 +115,11 @@ Peritonitis = st.selectbox("Peritonitis (1 for Yes, 0 for No)", options=[0, 1])
 Psoas_Sign = st.selectbox("Psoas Sign (1 for Positive, 0 for Negative)", options=[0, 1])
 
 # Organize input into a single DataFrame row
-input_data = pd.DataFrame([[Age, BMI, Sex, Height, Weight, Diagnosis, Alvarado_Score,
+input_data = pd.DataFrame([[Age, BMI, Sex, Diagnosis, Alvarado_Score,
                             Paedriatic_Appendicitis_Score, Migratory_Pain, Lower_Right_Abd_Pain,
                             Contralateral_Rebound_Tenderness, Coughing_Pain, Nausea, Loss_of_Appetite,
                             Body_Temperature, Dysuria, Stool, Peritonitis, Psoas_Sign]], 
-                          columns=['Age', 'BMI', 'Sex', 'Height', 'Weight', 'Diagnosis', 'Alvarado_Score',
+                          columns=['Age', 'BMI', 'Sex', 'Diagnosis', 'Alvarado_Score',
                                    'Paedriatic_Appendicitis_Score', 'Migratory_Pain', 'Lower_Right_Abd_Pain',
                                    'Contralateral_Rebound_Tenderness', 'Coughing_Pain', 'Nausea', 'Loss_of_Appetite',
                                    'Body_Temperature', 'Dysuria', 'Stool', 'Peritonitis', 'Psoas_Sign'])
