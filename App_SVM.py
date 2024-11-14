@@ -6,8 +6,8 @@ import joblib
 model = joblib.load('svm_model.pkl')  # Update the model path as necessary
 
 # Title and Description
-st.title("Diagnosis Prediction with Logistic Regression")
-st.write("This app uses a Logistic Regression model to predict diagnosis based on user input.")
+st.title("Diagnosis Prediction with SVM")
+st.write("This app uses a SVM model to predict diagnosis based on user input.")
 
 # User inputs for the features
 Age = st.number_input("Age", min_value=0)
