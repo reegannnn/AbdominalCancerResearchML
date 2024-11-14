@@ -62,9 +62,7 @@ from sklearn.svm import SVC
 svm_model = joblib.load('final_svm_model.pkl')
 
 # Load data
-@st.cache_data
-def load_data():
-    data = pd.read_csv("final_data.csv")
+data = pd.read_csv("final_data.csv")
 
 # Title and Description
 st.title("Diagnosis Prediction with Support Vector Machine (SVM)")
