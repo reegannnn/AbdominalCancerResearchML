@@ -44,14 +44,10 @@ input_data = pd.DataFrame([[Age, BMI, Sex, Height, Weight, Diagnosis, Alvarado_S
 # Predict button
 if st.button("Predict"):
     # Make prediction
-    prediction = model.predict(input_data)[0]
-    prediction_proba = model.predict_proba(input_data)[0][1]  # Get probability of positive diagnosis
-    
-    # Display the prediction
-    st.subheader("Prediction")
-    st.write("Diagnosis Prediction (0 = No, 1 = Yes):", prediction)
-    st.write("Probability of Diagnosis (Yes):", round(prediction_proba, 4))
+    svm_pred = model.predict(input_data)[0]
+    svm_accuracy = 0.85  # Placeholder; update based on actual accuracy
 
-    # Display additional information (accuracy or model details can be added here)
-    model_accuracy = 0.85  # Placeholder for actual accuracy
-    st.write("SVM Model Accuracy:", model_accuracy)
+    # Display the prediction and accuracy
+    st.subheader("Prediction")
+    st.write("SVM Prediction:", svm_pred)
+    st.write("SVM Accuracy:", svm_accuracy)
