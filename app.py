@@ -337,6 +337,157 @@
 #     main()
 
 
+# import streamlit as st
+# import pandas as pd
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import joblib
+
+# # Load the model
+# @st.cache_resource
+# def load_model():
+#     model = joblib.load("diagnostic_model.pkl")
+#     return model
+
+# # Load data and handle missing values
+# @st.cache_data
+# def load_data():
+#     data = pd.read_csv("app_data.csv")
+    
+#     # Derive necessary columns if they don’t exist directly
+#     data["Management_primary surgical"] = (data["Management"] == "primary surgical").astype(int)
+#     data["Appendix_on_US_yes"] = (data["Appendix_on_US"] == "yes").astype(int)
+#     data["Diagnosis_Presumptive_no appendicitis"] = (data["Diagnosis_Presumptive"] == "no appendicitis").astype(int)
+#     data["Severity_uncomplicated"] = (data["Severity"] == "uncomplicated").astype(int)
+    
+#     # Check and handle missing values for each column
+#     for column in data.columns:
+#         if data[column].isnull().any():
+#             if data[column].dtype == 'object':
+#                 # Fill missing values in categorical columns with the mode
+#                 data[column].fillna(data[column].mode()[0], inplace=True)
+#             else:
+#                 # Fill missing values in numeric columns with the mean
+#                 data[column].fillna(data[column].mean(), inplace=True)
+                
+#     return data
+
+# # Main app function
+# def main():
+#     st.title("Cancer Research Diagnostic Tool")
+#     st.write("This app allows you to explore and visualize cancer research data and make diagnostic predictions.")
+
+#     # Load model and data
+#     model = load_model()
+#     data = load_data()
+    
+#     # Specified columns for prediction
+#     features = [
+#         'Appendix_Diameter', 'Management_primary surgical', 'Appendix_on_US_yes',
+#         'US_Number', 'Length_of_Stay', 'WBC_Count', 'CRP', 
+#         'Diagnosis_Presumptive_no appendicitis', 'Alvarado_Score', 
+#         'Severity_uncomplicated', 'Age', 'Weight', 'Height', 
+#         'BMI', 'Sex'
+#     ]
+    
+#     # Filter dataset for selected features
+#     data = data[features]
+#     st.write("### Data Preview (Selected Columns)")
+#     st.write(data.head())
+
+#     # Display basic statistics for selected features
+#     st.write("### Basic Statistics for Selected Features")
+#     st.write(data.describe())
+
+#     # Sidebar filters for numeric features
+#     st.sidebar.header("Filter Options")
+#     filters = {}
+
+#     # Sidebar filters for Age, BMI, Sex, Height, and Weight
+#     if 'Age' in data.columns:
+#         min_age, max_age = int(data['Age'].min()), int(data['Age'].max())
+#         filters['Age'] = st.sidebar.slider("Filter by Age", min_value=min_age, max_value=max_age, value=(min_age, max_age))
+
+#     if 'BMI' in data.columns:
+#         min_bmi, max_bmi = int(data['BMI'].min()), int(data['BMI'].max())
+#         filters['BMI'] = st.sidebar.slider("Filter by BMI", min_value=min_bmi, max_value=max_bmi, value=(min_bmi, max_bmi))
+
+#     if 'Sex' in data.columns:
+#         sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0, 1])  # Assuming 0: Female, 1: Male
+#         filters['Sex'] = sex_filter
+
+#     if 'Height' in data.columns:
+#         min_height, max_height = int(data['Height'].min()), int(data['Height'].max())
+#         filters['Height'] = st.sidebar.slider("Filter by Height", min_value=min_height, max_value=max_height, value=(min_height, max_height))
+
+#     if 'Weight' in data.columns:
+#         min_weight, max_weight = int(data['Weight'].min()), int(data['Weight'].max())
+#         filters['Weight'] = st.sidebar.slider("Filter by Weight", min_value=min_weight, max_value=max_weight, value=(min_weight, max_weight))
+
+#     # Apply filters to data
+#     for feature, value in filters.items():
+#         if isinstance(value, tuple):  # Slider values
+#             data = data[(data[feature] >= value[0]) & (data[feature] <= value[1])]
+#         else:
+#             data = data[data[feature] == value]
+
+#     # Visualization options
+#     st.write("## Data Visualizations")
+
+#     # Histogram for Appendix Diameter
+#     if 'Appendix_Diameter' in data.columns:
+#         st.write("### Histogram: Appendix Diameter")
+#         fig, ax = plt.subplots()
+#         sns.histplot(data['Appendix_Diameter'], kde=True, ax=ax)
+#         st.pyplot(fig)
+
+#     # Scatter plot for Age vs BMI
+#     if 'Age' in data.columns and 'BMI' in data.columns:
+#         st.write("### Scatter Plot: Age vs BMI")
+#         fig, ax = plt.subplots()
+#         sns.scatterplot(data=data, x='Age', y='BMI', hue='Sex', ax=ax)
+#         st.pyplot(fig)
+
+#     # Correlation heatmap for numeric features
+#     st.write("### Correlation Matrix for Numeric Features")
+#     numeric_features = data.select_dtypes(include=['float64', 'int64']).dropna()
+#     if numeric_features.empty:
+#         st.write("No numeric columns available for correlation.")
+#     else:
+#         corr = numeric_features.corr()
+#         fig, ax = plt.subplots(figsize=(10, 8))
+#         sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
+#         st.pyplot(fig)
+
+#     # Input for prediction
+#     st.write("## Predict Diagnosis")
+#     st.write("Please enter the following feature values for prediction:")
+
+#     input_data = {}
+#     for feature in features:
+#         if feature == 'Sex':
+#             input_data[feature] = st.selectbox(f"{feature}", options=[0, 1])  # Assuming 0: Female, 1: Male
+#         else:
+#             input_data[feature] = st.number_input(f"{feature}", value=float(data[feature].mean()))
+
+#     # Convert input data into DataFrame for prediction
+#     input_df = pd.DataFrame([input_data])
+
+#     if st.button("Predict"):
+#         try:
+#             prediction = model.predict(input_df)[0]
+#             st.write(f"Prediction: {'Appendicitis' if prediction == 1 else 'No Appendicitis'}")
+#         except Exception as e:
+#             st.error(f"An error occurred during prediction: {e}")
+
+# # Run the app
+# if __name__ == "__main__":
+#     main()
+
+
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -350,10 +501,10 @@ def load_model():
     model = joblib.load("diagnostic_model.pkl")
     return model
 
-# Load data and handle missing values
+# Load and preprocess data
 @st.cache_data
 def load_data():
-    data = pd.read_csv("app_data.csv")
+    data = pd.read_csv("/mnt/data/app_data.csv")
     
     # Derive necessary columns if they don’t exist directly
     data["Management_primary surgical"] = (data["Management"] == "primary surgical").astype(int)
@@ -361,31 +512,29 @@ def load_data():
     data["Diagnosis_Presumptive_no appendicitis"] = (data["Diagnosis_Presumptive"] == "no appendicitis").astype(int)
     data["Severity_uncomplicated"] = (data["Severity"] == "uncomplicated").astype(int)
     
-    # Check and handle missing values for each column
+    # Handle missing values
     for column in data.columns:
         if data[column].isnull().any():
             if data[column].dtype == 'object':
-                # Fill missing values in categorical columns with the mode
                 data[column].fillna(data[column].mode()[0], inplace=True)
             else:
-                # Fill missing values in numeric columns with the mean
                 data[column].fillna(data[column].mean(), inplace=True)
                 
     return data
 
 # Main app function
 def main():
-    st.title("Cancer Research Diagnostic Tool")
-    st.write("This app allows you to explore and visualize cancer research data and make diagnostic predictions.")
+    st.title("Appendicitis Diagnostic Tool")
+    st.write("Predict the likelihood of appendicitis based on key medical indicators.")
 
     # Load model and data
     model = load_model()
     data = load_data()
     
-    # Specified columns for prediction
+    # Key features for prediction
     features = [
         'Appendix_Diameter', 'Management_primary surgical', 'Appendix_on_US_yes',
-        'US_Number', 'Length_of_Stay', 'WBC_Count', 'CRP', 
+        'US_number', 'Length_of_Stay', 'WBC_Count', 'CRP', 
         'Diagnosis_Presumptive_no appendicitis', 'Alvarado_Score', 
         'Severity_uncomplicated', 'Age', 'Weight', 'Height', 
         'BMI', 'Sex'
@@ -396,84 +545,33 @@ def main():
     st.write("### Data Preview (Selected Columns)")
     st.write(data.head())
 
-    # Display basic statistics for selected features
-    st.write("### Basic Statistics for Selected Features")
-    st.write(data.describe())
-
-    # Sidebar filters for numeric features
+    # Sidebar filters for diagnostic features
     st.sidebar.header("Filter Options")
-    filters = {}
-
-    # Sidebar filters for Age, BMI, Sex, Height, and Weight
     if 'Age' in data.columns:
         min_age, max_age = int(data['Age'].min()), int(data['Age'].max())
-        filters['Age'] = st.sidebar.slider("Filter by Age", min_value=min_age, max_value=max_age, value=(min_age, max_age))
+        age_filter = st.sidebar.slider("Filter by Age", min_value=min_age, max_value=max_age, value=(min_age, max_age))
+        data = data[(data['Age'] >= age_filter[0]) & (data['Age'] <= age_filter[1])]
 
-    if 'BMI' in data.columns:
-        min_bmi, max_bmi = int(data['BMI'].min()), int(data['BMI'].max())
-        filters['BMI'] = st.sidebar.slider("Filter by BMI", min_value=min_bmi, max_value=max_bmi, value=(min_bmi, max_bmi))
+    # Visualization: CRP vs Alvarado Score to show likelihood of appendicitis
+    st.write("## CRP vs Alvarado Score")
+    fig, ax = plt.subplots()
+    sns.scatterplot(data=data, x="CRP", y="Alvarado_Score", hue="Severity_uncomplicated", ax=ax)
+    plt.xlabel("CRP Level")
+    plt.ylabel("Alvarado Score")
+    plt.title("CRP vs Alvarado Score")
+    st.pyplot(fig)
 
-    if 'Sex' in data.columns:
-        sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0, 1])  # Assuming 0: Female, 1: Male
-        filters['Sex'] = sex_filter
-
-    if 'Height' in data.columns:
-        min_height, max_height = int(data['Height'].min()), int(data['Height'].max())
-        filters['Height'] = st.sidebar.slider("Filter by Height", min_value=min_height, max_value=max_height, value=(min_height, max_height))
-
-    if 'Weight' in data.columns:
-        min_weight, max_weight = int(data['Weight'].min()), int(data['Weight'].max())
-        filters['Weight'] = st.sidebar.slider("Filter by Weight", min_value=min_weight, max_value=max_weight, value=(min_weight, max_weight))
-
-    # Apply filters to data
-    for feature, value in filters.items():
-        if isinstance(value, tuple):  # Slider values
-            data = data[(data[feature] >= value[0]) & (data[feature] <= value[1])]
-        else:
-            data = data[data[feature] == value]
-
-    # Visualization options
-    st.write("## Data Visualizations")
-
-    # Histogram for Appendix Diameter
-    if 'Appendix_Diameter' in data.columns:
-        st.write("### Histogram: Appendix Diameter")
-        fig, ax = plt.subplots()
-        sns.histplot(data['Appendix_Diameter'], kde=True, ax=ax)
-        st.pyplot(fig)
-
-    # Scatter plot for Age vs BMI
-    if 'Age' in data.columns and 'BMI' in data.columns:
-        st.write("### Scatter Plot: Age vs BMI")
-        fig, ax = plt.subplots()
-        sns.scatterplot(data=data, x='Age', y='BMI', hue='Sex', ax=ax)
-        st.pyplot(fig)
-
-    # Correlation heatmap for numeric features
-    st.write("### Correlation Matrix for Numeric Features")
-    numeric_features = data.select_dtypes(include=['float64', 'int64']).dropna()
-    if numeric_features.empty:
-        st.write("No numeric columns available for correlation.")
-    else:
-        corr = numeric_features.corr()
-        fig, ax = plt.subplots(figsize=(10, 8))
-        sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
-        st.pyplot(fig)
-
-    # Input for prediction
-    st.write("## Predict Diagnosis")
-    st.write("Please enter the following feature values for prediction:")
-
+    # Input form for prediction
+    st.write("## Predict Appendicitis")
     input_data = {}
     for feature in features:
         if feature == 'Sex':
-            input_data[feature] = st.selectbox(f"{feature}", options=[0, 1])  # Assuming 0: Female, 1: Male
+            input_data[feature] = st.selectbox(f"{feature}", options=[0, 1], format_func=lambda x: "Male" if x == 1 else "Female")
         else:
             input_data[feature] = st.number_input(f"{feature}", value=float(data[feature].mean()))
-
-    # Convert input data into DataFrame for prediction
+    
+    # Prediction
     input_df = pd.DataFrame([input_data])
-
     if st.button("Predict"):
         try:
             prediction = model.predict(input_df)[0]
