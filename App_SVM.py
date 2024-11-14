@@ -107,7 +107,7 @@ if st.button("Predict"):
     # Display the prediction
     st.subheader("Prediction")
     st.write("Diagnosis Prediction (0 = No, 1 = Yes):", prediction)
-    st.write("Probability of Diagnosis (Yes):", round(prediction_proba, 4))
+    st.write("Probability of Diagnosis being positive (Yes):", round(prediction_proba, 4))
 
     # Display additional information (accuracy or model details can be added here)
     svm_accuracy = 0.85  # Placeholder for actual accuracy
