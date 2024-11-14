@@ -396,62 +396,63 @@ def main():
     st.write("### Data Preview (Selected Columns)")
     st.write(data.head())
 
-    # Display basic statistics for selected features
-    st.write("### Basic Statistics for Selected Features")
-    st.write(data.describe())
-
     # Sidebar filters for numeric features
     st.sidebar.header("Filter Options")
-    filters = {}
+    filter_values = {}
 
     # Sidebar filters for Age, BMI, Sex, Height, and Weight
     if 'Age' in data.columns:
         min_age, max_age = int(data['Age'].min()), int(data['Age'].max())
-        filters['Age'] = st.sidebar.slider("Filter by Age", min_value=min_age, max_value=max_age, value=(min_age, max_age))
+        filter_values['Age'] = st.sidebar.slider("Filter by Age", min_value=min_age, max_value=max_age, value=(min_age, max_age))
 
     if 'BMI' in data.columns:
         min_bmi, max_bmi = int(data['BMI'].min()), int(data['BMI'].max())
-        filters['BMI'] = st.sidebar.slider("Filter by BMI", min_value=min_bmi, max_value=max_bmi, value=(min_bmi, max_bmi))
+        filter_values['BMI'] = st.sidebar.slider("Filter by BMI", min_value=min_bmi, max_value=max_bmi, value=(min_bmi, max_bmi))
 
     if 'Sex' in data.columns:
         sex_filter = st.sidebar.selectbox("Filter by Sex", options=[0, 1])  # Assuming 0: Female, 1: Male
-        filters['Sex'] = sex_filter
+        filter_values['Sex'] = sex_filter
 
     if 'Height' in data.columns:
         min_height, max_height = int(data['Height'].min()), int(data['Height'].max())
-        filters['Height'] = st.sidebar.slider("Filter by Height", min_value=min_height, max_value=max_height, value=(min_height, max_height))
+        filter_values['Height'] = st.sidebar.slider("Filter by Height", min_value=min_height, max_value=max_height, value=(min_height, max_height))
 
     if 'Weight' in data.columns:
         min_weight, max_weight = int(data['Weight'].min()), int(data['Weight'].max())
-        filters['Weight'] = st.sidebar.slider("Filter by Weight", min_value=min_weight, max_value=max_weight, value=(min_weight, max_weight))
+        filter_values['Weight'] = st.sidebar.slider("Filter by Weight", min_value=min_weight, max_value=max_weight, value=(min_weight, max_weight))
 
-    # Apply filters to data
-    for feature, value in filters.items():
+    # Apply filters to data for visualization
+    filtered_data = data.copy()
+    for feature, value in filter_values.items():
         if isinstance(value, tuple):  # Slider values
-            data = data[(data[feature] >= value[0]) & (data[feature] <= value[1])]
+            filtered_data = filtered_data[(filtered_data[feature] >= value[0]) & (filtered_data[feature] <= value[1])]
         else:
-            data = data[data[feature] == value]
+            filtered_data = filtered_data[filtered_data[feature] == value]
+
+    # Display filtered data and visualizations
+    st.write("### Filtered Data Preview")
+    st.write(filtered_data.head())
 
     # Visualization options
     st.write("## Data Visualizations")
 
     # Histogram for Appendix Diameter
-    if 'Appendix_Diameter' in data.columns:
+    if 'Appendix_Diameter' in filtered_data.columns:
         st.write("### Histogram: Appendix Diameter")
         fig, ax = plt.subplots()
-        sns.histplot(data['Appendix_Diameter'], kde=True, ax=ax)
+        sns.histplot(filtered_data['Appendix_Diameter'], kde=True, ax=ax)
         st.pyplot(fig)
 
     # Scatter plot for Age vs BMI
-    if 'Age' in data.columns and 'BMI' in data.columns:
+    if 'Age' in filtered_data.columns and 'BMI' in filtered_data.columns:
         st.write("### Scatter Plot: Age vs BMI")
         fig, ax = plt.subplots()
-        sns.scatterplot(data=data, x='Age', y='BMI', hue='Sex', ax=ax)
+        sns.scatterplot(data=filtered_data, x='Age', y='BMI', hue='Sex', ax=ax)
         st.pyplot(fig)
 
     # Correlation heatmap for numeric features
     st.write("### Correlation Matrix for Numeric Features")
-    numeric_features = data.select_dtypes(include=['float64', 'int64']).dropna()
+    numeric_features = filtered_data.select_dtypes(include=['float64', 'int64']).dropna()
     if numeric_features.empty:
         st.write("No numeric columns available for correlation.")
     else:
@@ -460,16 +461,18 @@ def main():
         sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
         st.pyplot(fig)
 
-    # Input for prediction
+    # Input for prediction, using filter defaults
     st.write("## Predict Diagnosis")
     st.write("Please enter the following feature values for prediction:")
 
     input_data = {}
     for feature in features:
         if feature == 'Sex':
-            input_data[feature] = st.selectbox(f"{feature}", options=[0, 1])  # Assuming 0: Female, 1: Male
+            input_data[feature] = st.selectbox(f"{feature}", options=[0, 1], index=filter_values.get(feature, 0))  # Default to sidebar filter value if available
+        elif feature in filter_values and isinstance(filter_values[feature], tuple):  # Slider range
+            input_data[feature] = st.slider(f"{feature}", value=(filter_values[feature][0] + filter_values[feature][1]) / 2)
         else:
-            input_data[feature] = st.number_input(f"{feature}", value=float(data[feature].mean()))
+            input_data[feature] = st.number_input(f"{feature}", value=float(filtered_data[feature].mean()))
 
     # Convert input data into DataFrame for prediction
     input_df = pd.DataFrame([input_data])
