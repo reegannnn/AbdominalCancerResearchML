@@ -98,21 +98,33 @@ input_data = pd.DataFrame([[Age, BMI, Sex, Height, Weight, Diagnosis, Alvarado_S
 # Ensure the columns in input_data match the model's expected feature names
 input_data = input_data[svm_model.feature_names_in_]
 
-# Predict button
-if st.button("Predict"):
-    # Make prediction
-    prediction = svm_model.predict(input_data)[0]
-    prediction_proba = svm_model.predict_proba(input_data)[0][1]  # Get probability of positive diagnosis
+# # Predict button
+# if st.button("Predict"):
+#     # Make prediction
+#     prediction = svm_model.predict(input_data)[0]
+#     prediction_proba = svm_model.predict_proba(input_data)[0][1]  # Get probability of positive diagnosis
     
-    # Display the prediction
-    st.subheader("Prediction")
-    st.write("Diagnosis Prediction (0 = No, 1 = Yes):", prediction)
-    st.write("Probability of Diagnosis being positive (Yes):", round(prediction_proba, 4))
+#     # Display the prediction
+#     st.subheader("Prediction")
+#     st.write("Diagnosis Prediction (0 = No, 1 = Yes):", prediction)
+#     st.write("Probability of Diagnosis being positive (Yes):", round(prediction_proba, 4))
 
-    # Display additional information (accuracy or model details can be added here)
-    svm_accuracy = 0.85  # Placeholder for actual accuracy
-    st.write("SVM Model Accuracy:", svm_accuracy)
+#     # Display additional information (accuracy or model details can be added here)
+#     svm_accuracy = 0.85  # Placeholder for actual accuracy
+#     st.write("SVM Model Accuracy:", svm_accuracy)
 
     # st.subheader("Prediction")
     # st.write("SVM Prediction:", svm_pred)
     # st.write("SVM Accuracy:", svm_accuracy)
+
+if st.button("Predict"):
+    # Make prediction
+    prediction = svm_model.predict(input_data)[0]
+    
+    # Display the prediction
+    st.subheader("Prediction")
+    st.write("Diagnosis Prediction (0 = No, 1 = Yes):", prediction)
+    
+    # Display additional information (accuracy or model details can be added here)
+    svm_accuracy = 0.85  # Placeholder for actual accuracy
+    st.write("SVM Model Accuracy:", svm_accuracy)
