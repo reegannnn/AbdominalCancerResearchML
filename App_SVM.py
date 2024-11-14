@@ -61,6 +61,11 @@ from sklearn.svm import SVC
 # Load the trained model
 svm_model = joblib.load('final_svm_model.pkl')
 
+# Load data
+@st.cache_data
+def load_data():
+    data = pd.read_csv("app_data.csv")
+
 # Title and Description
 st.title("Diagnosis Prediction with Support Vector Machine (SVM)")
 st.write("This app uses a Support Vector Machine (SVM) model to predict diagnosis based on user input.")
