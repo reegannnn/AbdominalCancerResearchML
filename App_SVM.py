@@ -58,33 +58,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.svm import SVC
 
-
-# Title and Description
-st.title("Diagnosis Prediction with Support Vector Machine (SVM)")
-st.write("This app uses a Support Vector Machine (SVM) model to predict diagnosis based on user input.")
-
-# Plotting section
-st.header("Data Visualizations")
-
-# Histograms for specified features
-st.subheader("Histograms of Selected Features")
-fig, ax = plt.subplots(figsize=(15, 10))
-data[['Age', 'BMI', 'Height', 'Weight', 'Body_Temperature']].hist(bins=20, ax=ax)
-st.pyplot(fig)
-
-# Scatter plot for BMI vs. Alvarado Score
-st.subheader("Scatter Plot of BMI vs. Alvarado Score by Diagnosis")
-fig, ax = plt.subplots()
-sns.scatterplot(x='BMI', y='Alvarado_Score', hue='Diagnosis', data=data, ax=ax)
-plt.title("BMI vs Alvarado Score with Diagnosis Outcome")
-st.pyplot(fig)
-
-st.subheader("Box Plot of Selected Features by Diagnosis")
-fig, ax = plt.subplots(figsize=(15, 10))
-sns.boxplot(data=data[['Age', 'BMI', 'Height', 'Weight', 'Body_Temperature']])
-plt.title("Box Plot of Age, BMI, Height, Weight, Body Temperature")
-st.pyplot(fig)
-
 # Load the trained model
 svm_model = joblib.load('final_svm_model.pkl')
 
