@@ -113,6 +113,6 @@ if st.button("Predict"):
     svm_accuracy = 0.85  # Placeholder for actual accuracy
     st.write("SVM Model Accuracy:", svm_accuracy)
 
-    st.subheader("Prediction")
-    st.write("SVM Prediction:", svm_pred)
-    st.write("SVM Accuracy:", svm_accuracy)
+    # st.subheader("Prediction")
+    # st.write("SVM Prediction:", svm_pred)
+    # st.write("SVM Accuracy:", svm_accuracy)
