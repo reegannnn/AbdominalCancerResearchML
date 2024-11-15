@@ -80,7 +80,7 @@ from sklearn.calibration import CalibratedClassifierCV
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model and scaler
-svm_model = joblib.load('final_svm_model.pkl')
+svm_model = joblib.load('calibrated_svm_model.pkl')
 scaler = joblib.load('scaler.pkl')  # Load scaler if used in training
 
 # Load data
