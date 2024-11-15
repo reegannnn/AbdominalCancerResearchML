@@ -189,7 +189,7 @@ plt.title("BMI vs Alvarado Score with Diagnosis Outcome")
 st.pyplot(fig)
 
 # User inputs for the features
-Age = st.number_input("Age", min_value=0)
+Age = st.number_input("Age", min_value=0.0)
 BMI = st.number_input("BMI", min_value=0.0)
 Sex = st.selectbox("Sex", options=[0, 1])  # 0 = Female, 1 = Male
 Height = st.number_input("Height (in cm)", min_value=0)
