@@ -22,6 +22,27 @@ fig, ax = plt.subplots()
 sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", ax=ax)
 st.pyplot(fig)
 
+# Histograms for specified features
+st.subheader("Histograms of Selected Features")
+fig, ax = plt.subplots(figsize=(15, 10))
+data[['Age', 'BMI', 'Height', 'Weight', 'Body_Temperature']].hist(bins=20, ax=ax)
+st.pyplot(fig)
+
+# Scatter plot for BMI vs. Alvarado Score
+st.subheader("Scatter Plot of BMI vs. Alvarado Score by Diagnosis")
+fig, ax = plt.subplots()
+sns.scatterplot(x='BMI', y='Alvarado_Score', hue='Diagnosis', data=data, ax=ax)
+plt.title("BMI vs Alvarado Score with Diagnosis Outcome")
+st.pyplot(fig)
+
+# Add further plots (box plots, etc.) as needed
+# For example, box plots for selected features:
+st.subheader("Box Plot of Selected Features by Diagnosis")
+fig, ax = plt.subplots(figsize=(15, 10))
+sns.boxplot(data=data[['Age', 'BMI', 'Height', 'Weight', 'Body_Temperature']])
+plt.title("Box Plot of Age, BMI, Height, Weight, Body Temperature")
+st.pyplot(fig)
+
 
 # User inputs for the features
 Age = st.number_input("Age", min_value=0)
